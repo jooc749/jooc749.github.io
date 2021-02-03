@@ -1,0 +1,28 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 2em;
+  background: black;
+  color: white;
+}
+
+h1 {
+  font-family: helvetica;
+  color: white;
+  text-align: center;
+  font-size: 50pt;
+}
+
+p{
+  font-family: helvetica;
+  text-align: center;
+  font-size: 15pt;
+}
+
+a{
+  text-decoration: none;
+  color: #00d123;
+}
+
+.title {
+  font-style: italic;
+}
