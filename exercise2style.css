@@ -1,0 +1,1441 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #141414;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 40%;
+}
+
+/* #rectangle {
+  height: 80px;
+  width:15px;
+  background: white;
+  position: absolute;
+  left: 700px;
+  top: 300px;
+} */
+
+#shape {
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: 20px;
+  width: 420px;
+  height: 200px;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+
+.hawaii {
+  align-items: center;
+}
+
+#k1 {
+  position: absolute;
+  left: 630px;
+  top: 150px;
+}
+
+#k2 {
+  position: absolute;
+  left: 630px;
+  top: 165px;
+}
+
+#k3 {
+  position: absolute;
+  left: 630px;
+  top: 180px;
+}
+
+#k4 {
+  position: absolute;
+  left: 630px;
+  top: 195px;
+}
+
+
+#k5 {
+  position: absolute;
+  left: 630px;
+  top: 210px;
+}
+
+#k6 {
+  position: absolute;
+  left: 630px;
+  top: 225px;
+}
+
+#k7 {
+  position: absolute;
+  left: 630px;
+  top: 225px;
+}
+
+#k8 {
+  position: absolute;
+  left: 633px;
+  top: 150px;
+}
+
+#k9{
+  position: absolute;
+  left:633px;
+  top:165px;
+}
+
+#k10{
+  position: absolute;
+  left:633px;
+  top:180px;
+}
+
+#k11{
+  position: absolute;
+  left:633px;
+  top:195px;
+}
+
+#k12{
+  position: absolute;
+  left:633px;
+  top:210px;
+}
+
+#k13{
+  position: absolute;
+  left:633px;
+  top:225px;
+}
+
+#k14{
+  position: absolute;
+  left:627px;
+  top:225px;
+}
+
+#k15{
+  position: absolute;
+  left:627px;
+  top:210px;
+}
+
+#k16{
+  position: absolute;
+  left:627px;
+  top:195px;
+}
+
+#k17 {
+  position: absolute;
+  left:627px;
+  top:180px;
+}
+
+#k18 {
+  position: absolute;
+  left:627px;
+  top:165px;
+}
+
+#k19 {
+  position: absolute;
+  left:627px;
+  top:150px;
+}
+
+#topk1{
+  position: absolute;
+  left: 640px;
+  top: 180px;
+  transform: rotate(20deg);
+}
+
+#topk2{
+  position: absolute;
+  left: 645px;
+  top: 165px;
+  transform: rotate(20deg);
+}
+
+#topk3{
+  position: absolute;
+  left: 650px;
+  top: 150px;
+  transform: rotate(20deg);
+}
+
+#topk4{
+  position: absolute;
+  left: 645px;
+  top: 180px;
+  transform: rotate(20deg);
+}
+
+#topk5{
+  position: absolute;
+  left: 650px;
+  top: 165px;
+  transform: rotate(20deg);
+}
+
+#topk6{
+  position: absolute;
+  left: 655px;
+  top: 150px;
+  transform: rotate(20deg);
+}
+
+#topk7{
+  position: absolute;
+  left: 660px;
+  top: 150px;
+  transform: rotate(20deg);
+}
+
+#topk8{
+  position: absolute;
+  left: 655px;
+  top: 165px;
+  transform: rotate(20deg);
+}
+
+#topk9{
+  position: absolute;
+  left: 650px;
+  top: 180px;
+  transform: rotate(20deg);
+}
+
+
+#bottomk1 {
+  position: absolute;
+  left: 640px;
+  top: 195px;
+}
+
+#bottomk2 {
+  position: absolute;
+  left: 645px;
+  top: 210px;
+}
+
+#bottomk3 {
+  position: absolute;
+  left: 650px;
+  top: 225px;
+}
+
+#bottomk4 {
+  position: absolute;
+  left: 645px;
+  top: 195px;
+}
+
+#bottomk5 {
+  position: absolute;
+  left: 650px;
+  top: 210px;
+}
+
+#bottomk6 {
+  position: absolute;
+  left: 655px;
+  top: 225px;
+}
+
+#bottomk7 {
+  position: absolute;
+  left: 650px;
+  top: 195px;
+}
+
+#bottomk8 {
+  position: absolute;
+  left: 655px;
+  top: 210px;
+}
+
+#bottomk9 {
+  position: absolute;
+  left: 660px;
+  top: 225px;
+}
+
+#leftu1{
+  position: absolute;
+  left: 680px;
+  top: 150px;
+}
+
+#leftu2{
+  position: absolute;
+  left: 680px;
+  top: 165px;
+}
+
+#leftu3{
+  position: absolute;
+  left: 680px;
+  top: 180px;
+}
+
+#leftu4{
+  position: absolute;
+  left: 680px;
+  top:195px;
+}
+
+#leftu5{
+  position: absolute;
+  left: 680px;
+  top: 210px;
+}
+
+/*this is the second row of the left leg of U*/
+
+#leftu9{
+  position: absolute;
+  left: 683px;
+  top: 150px;
+}
+
+#leftu10 {
+  position: absolute;
+  left: 683px;
+  top: 165px;
+}
+
+#leftu11 {
+  position: absolute;
+  left: 683px;
+  top: 180px;
+}
+
+#leftu12 {
+  position: absolute;
+  left: 683px;
+  top: 195px;
+}
+
+#leftu13 {
+  position: absolute;
+  left: 683px;
+  top: 210px;
+}
+
+/*this is the inside row of the left leg of the U*/
+
+#leftu17 {
+  position: absolute;
+  left: 686px;
+  top: 150px;
+}
+
+#leftu18 {
+  position: absolute;
+  left: 686px;
+  top: 165px;
+}
+
+#leftu19 {
+  position: absolute;
+  left: 686px;
+  top: 180px;
+}
+
+#leftu20 {
+  position: absolute;
+  left: 686px;
+  top: 195px;
+}
+
+#leftu21 {
+  position: absolute;
+  left: 686px;
+  top: 210px;
+}
+
+/*this is the bottom of the U*/
+
+#leftu6{
+  position: absolute;
+  left: 685px;
+  top: 225px;
+  transform: rotate(-30deg);
+}
+
+#leftu7{
+  position: absolute;
+  left: 700px;
+  top: 232px;
+  transform: rotate(-90deg);
+}
+
+#leftu8 {
+  position: absolute;
+  left: 715px;
+  top: 232px;
+  transform: rotate(-90deg);
+}
+
+#leftu14{
+  position: absolute;
+  left: 689px;
+  top: 223px;
+  transform: rotate(-30deg);
+}
+
+#leftu15{
+  position: absolute;
+  left: 700px;
+  top: 228px;
+  transform: rotate(-90deg);
+}
+
+#leftu16{
+  position: absolute;
+  left: 715px;
+  top: 228px;
+  transform: rotate(-90deg);
+}
+
+/*this is the right leg of the U*/
+
+
+#rightu1{
+  position: absolute;
+  left: 730px;
+  top: 225px;
+  transform: rotate(30deg);
+}
+
+#rightu2{
+  position: absolute;
+  left: 735px;
+  top: 210px;
+}
+
+#rightu3{
+  position: absolute;
+  left: 735px;
+  top: 195px;
+}
+
+#rightu4{
+  position: absolute;
+  left: 735px;
+  top: 180px;
+}
+
+#rightu5{
+  position: absolute;
+  left: 735px;
+  top: 165px;
+}
+
+#rightu6{
+  position: absolute;
+  left: 735px;
+  top: 150px;
+}
+
+#rightu7{
+  position: absolute;
+  left: 732px;
+  top: 150px;
+}
+
+#rightu8{
+  position: absolute;
+  left: 732px;
+  top: 165px;
+}
+
+#rightu9{
+  position: absolute;
+  left: 732px;
+  top: 180px;
+}
+
+#rightu10{
+  position: absolute;
+  left: 732px;
+  top: 195px;
+}
+
+#rightu11{
+  position: absolute;
+  left: 732px;
+  top: 210px;
+}
+
+#rightu12{
+  position: absolute;
+  left: 725px;
+  top: 225px;
+  transform: rotate(30deg);
+}
+
+#rightu13{
+  position: absolute;
+  left: 729px;
+  top: 150px;
+}
+
+#rightu14{
+  position: absolute;
+  left: 729px;
+  top: 165px;
+}
+
+#rightu15{
+  position: absolute;
+  left: 729px;
+  top: 180px;
+}
+
+#rightu16{
+  position: absolute;
+  left: 729px;
+  top: 195px;
+}
+
+#rightu17{
+  position: absolute;
+  left: 729px;
+  top: 210px;
+}
+
+/*this is the first A*/
+
+#firsta1{
+  position: absolute;
+  left: 780px;
+  top: 150px;
+}
+
+#firsta2{
+  position: absolute;
+  left: 775px;
+  top: 165px;
+}
+
+#firsta3{
+  position: absolute;
+  left: 770px;
+  top: 180px;
+}
+
+#firsta4{
+  position: absolute;
+  left: 765px;
+  top: 195px;
+}
+
+#firsta5{
+  position: absolute;
+  left: 760px;
+  top: 210px;
+}
+
+#firsta6{
+  position: absolute;
+  left: 755px;
+  top: 225px;
+}
+
+#firsta7{
+  position: absolute;
+  left: 762px;
+  top: 230px;
+  transform: rotate(90deg);
+}
+
+#firsta8{
+  position: absolute;
+  left: 776px;
+  top: 230px;
+  transform: rotate(90deg);
+}
+
+#firsta9{
+  position: absolute;
+  left: 790px;
+  top: 230px;
+  transform: rotate(90deg);
+}
+
+#firsta10{
+  position: absolute;
+  left: 805px;
+  top: 230px;
+  transform: rotate(90deg);
+}
+
+#firsta11{
+  position: absolute;
+  left: 785px;
+  top: 150px;
+}
+
+#firsta12{
+  position: absolute;
+  left: 790px;
+  top: 165px;
+}
+
+#firsta13{
+  position: absolute;
+  left: 795px;
+  top: 180px;
+}
+
+#firsta14{
+  position: absolute;
+  left: 800px;
+  top: 195px;
+}
+
+#firsta15{
+  position: absolute;
+  left: 805px;
+  top: 210px;
+}
+
+#firsta16{
+  position: absolute;
+  left: 810px;
+  top: 225px;
+}
+
+/*this is the outer row of the first A*/
+
+#firsta17{
+  position: absolute;
+  left: 777px;
+  top: 150px;
+}
+
+#firsta18{
+  position: absolute;
+  left: 772px;
+  top: 165px;
+}
+
+#firsta19{
+  position: absolute;
+  left: 767px;
+  top: 180px;
+}
+
+#firsta20{
+  position: absolute;
+  left: 762px;
+  top: 195px;
+}
+
+
+#firsta21{
+  position: absolute;
+  left: 757px;
+  top: 210px;
+}
+
+#firsta22{
+  position: absolute;
+  left: 752px;
+  top: 225px;
+}
+
+#firsta23{
+  position: absolute;
+  left: 752px;
+  top: 234px;
+  transform:rotate(90deg);
+}
+
+#firsta24{
+  position: absolute;
+  left: 767px;
+  top: 234px;
+  transform:rotate(90deg);
+}
+
+#firsta25{
+  position: absolute;
+  left: 782px;
+  top: 234px;
+  transform:rotate(90deg);
+}
+
+#firsta26{
+  position: absolute;
+  left: 797px;
+  top: 234px;
+  transform:rotate(90deg);
+}
+
+#firsta27{
+  position: absolute;
+  left: 813px;
+  top: 234px;
+  transform:rotate(90deg);
+}
+
+#firsta28{
+  position: absolute;
+  left: 788px;
+  top: 150px;
+}
+
+#firsta29{
+  position: absolute;
+  left: 794px;
+  top: 165px;
+}
+
+#firsta30{
+  position: absolute;
+  left: 799px;
+  top: 180px;
+}
+
+#firsta31{
+  position: absolute;
+  left: 804px;
+  top: 195px;
+}
+
+#firsta32{
+  position: absolute;
+  left: 809px;
+  top: 210px;
+}
+
+#firsta33{
+  position: absolute;
+  left: 815px;
+  top: 225px;
+}
+
+/*this is the L*/
+#l1{
+  position: absolute;
+  left: 830px;
+  top: 150px;
+}
+
+#l2{
+  position: absolute;
+  left: 830px;
+  top: 165px;
+}
+
+#l3{
+  position: absolute;
+  left: 830px;
+  top: 180px;
+}
+
+#l4{
+  position: absolute;
+  left: 830px;
+  top: 195px;
+}
+
+#l5{
+  position: absolute;
+  left: 830px;
+  top: 210px;
+}
+
+#l6{
+  position: absolute;
+  left: 830px;
+  top: 225px;
+}
+
+#l7{
+  position: absolute;
+  left: 835px;
+  top: 235px;
+  transform:rotate(90deg);
+}
+
+#l8{
+  position: absolute;
+  left: 850px;
+  top: 235px;
+  transform:rotate(90deg);
+}
+
+#l9{
+  position: absolute;
+  left: 865px;
+  top: 235px;
+  transform:rotate(90deg);
+}
+
+#l10{
+  position: absolute;
+  left: 880px;
+  top: 235px;
+  transform:rotate(90deg);
+}
+
+/*this is the inner row of the L*/
+
+#l11{
+  position: absolute;
+  left: 833px;
+  top: 150px;
+}
+
+#l12{
+  position: absolute;
+  left: 833px;
+  top: 165px;
+}
+
+#l13{
+  position: absolute;
+  left: 833px;
+  top: 180px;
+}
+
+#l14{
+  position: absolute;
+  left: 833px;
+  top: 195px;
+}
+
+#l15{
+  position: absolute;
+  left: 833px;
+  top: 210px;
+}
+
+#l16{
+  position: absolute;
+  left: 833px;
+  top: 225px;
+}
+
+#l17{
+  position: absolute;
+  left: 840px;
+  top: 231px;
+  transform:rotate(90deg);
+}
+
+#l18{
+  position: absolute;
+  left: 855px;
+  top: 231px;
+  transform:rotate(90deg);
+}
+
+#l19{
+  position: absolute;
+  left: 870px;
+  top: 231px;
+  transform:rotate(90deg);
+}
+
+/*this is the innermost layer of the L*/
+
+#l20{
+  position: absolute;
+  left: 836px;
+  top: 150px;
+}
+
+#l21{
+  position: absolute;
+  left: 836px;
+  top: 165px;
+}
+
+#l22{
+  position: absolute;
+  left: 836px;
+  top: 180px;
+}
+
+#l23{
+  position: absolute;
+  left: 836px;
+  top: 195px;
+}
+
+#l24{
+  position: absolute;
+  left: 836px;
+  top: 210px;
+}
+
+#l25{
+  position: absolute;
+  left: 836px;
+  top: 225px;
+}
+
+/*this is the O*/
+
+#o1{
+  position: absolute;
+  left: 900px;
+  top:180px;
+}
+
+#o2{
+  position: absolute;
+  left: 900px;
+  top:165px;
+}
+
+#o3{
+  position: absolute;
+  left: 903px;
+  top:165px;
+}
+
+#o4{
+  position: absolute;
+  left: 903px;
+  top:180px;
+}
+
+#o5{
+  position: absolute;
+  left: 903px;
+  top:195px;
+}
+
+#o6{
+  position: absolute;
+  left: 903px;
+  top:210px;
+}
+
+#o7{
+  position: absolute;
+  left: 900px;
+  top:195px;
+}
+
+#o8{
+  position: absolute;
+  left: 907px;
+  top:225px;
+  transform:rotate(-30deg);
+}
+
+#o9{
+  position: absolute;
+  left: 920px;
+  top:230px;
+  transform:rotate(90deg);
+}
+
+#o10{
+  position: absolute;
+  left: 935px;
+  top:230px;
+  transform:rotate(90deg);
+}
+
+#o11{
+  position: absolute;
+  left: 950px;
+  top:225px;
+  transform:rotate(30deg);
+}
+
+#o12{
+  position: absolute;
+  left: 955px;
+  top:210px;
+}
+
+#o13{
+  position: absolute;
+  left: 955px;
+  top:195px;
+}
+
+#o14{
+  position: absolute;
+  left: 955px;
+  top:180px;
+}
+
+#o15{
+  position: absolute;
+  left: 955px;
+  top:165px;
+}
+
+#o16{
+  position: absolute;
+  left: 950px;
+  top:150px;
+  transform:rotate(-30deg);
+}
+
+#o17{
+  position: absolute;
+  left: 935px;
+  top:146px;
+  transform:rotate(90deg);
+}
+
+#o18{
+  position: absolute;
+  left: 920px;
+  top:146px;
+  transform:rotate(90deg);
+}
+
+#o19{
+  position: absolute;
+  left: 905px;
+  top:150px;
+  transform:rotate(30deg);
+}
+
+#o20{
+  position: absolute;
+  left: 900px;
+  top:210px;
+}
+
+#o21{
+  position: absolute;
+  left: 903px;
+  top:225px;
+  transform:rotate(-30deg);
+}
+
+#o22{
+  position: absolute;
+  left: 915px;
+  top:234px;
+  transform:rotate(90deg);
+}
+
+#o23{
+  position: absolute;
+  left: 930px;
+  top:234px;
+  transform:rotate(90deg);
+}
+
+#o24{
+  position: absolute;
+  left: 945px;
+  top:234px;
+  transform:rotate(90deg);
+}
+
+#o25{
+  position: absolute;
+  left: 955px;
+  top:225px;
+  transform:rotate(30deg);
+}
+
+#o26{
+  position: absolute;
+  left: 959px;
+  top:210px;
+}
+
+#o27{
+  position: absolute;
+  left: 959px;
+  top:195px;
+}
+
+#o28{
+  position: absolute;
+  left: 959px;
+  top:180px;
+}
+
+#o29{
+  position: absolute;
+  left: 959px;
+  top:165px;
+}
+
+#o30{
+  position: absolute;
+  left: 955px;
+  top:150px;
+  transform:rotate(-30deg);
+}
+
+#o31{
+  position: absolute;
+  left: 943px;
+  top:142px;
+  transform:rotate(90deg);
+}
+
+#o32{
+  position: absolute;
+  left: 928px;
+  top:142px;
+  transform:rotate(90deg);
+}
+
+#o33{
+  position: absolute;
+  left: 915px;
+  top:142px;
+  transform:rotate(90deg);
+}
+
+#o34{
+  position: absolute;
+  left: 901px;
+  top:150px;
+  transform:rotate(30deg);
+}
+
+
+/*this is the second A*/
+
+#seconda1{
+  position: absolute;
+  left: 1000px;
+  top:150px;
+}
+
+#seconda2{
+  position: absolute;
+  left: 995px;
+  top:165px;
+}
+
+#seconda3{
+  position: absolute;
+  left: 990px;
+  top:180px;
+}
+
+#seconda4{
+  position: absolute;
+  left: 985px;
+  top:195px;
+}
+
+#seconda5{
+  position: absolute;
+  left: 980px;
+  top:210px;
+}
+
+#seconda6{
+  position: absolute;
+  left: 975px;
+  top:225px;
+}
+
+#seconda7{
+  position: absolute;
+  left: 975px;
+  top:235px;
+  transform:rotate(90deg);
+}
+
+#seconda8{
+  position: absolute;
+  left: 990px;
+  top:235px;
+  transform:rotate(90deg);
+}
+
+#seconda9{
+  position: absolute;
+  left: 1005px;
+  top:235px;
+  transform:rotate(90deg);
+}
+
+#seconda10{
+  position: absolute;
+  left: 1020px;
+  top:235px;
+  transform:rotate(90deg);
+}
+
+#seconda11{
+  position: absolute;
+  left: 1035px;
+  top:235px;
+  transform:rotate(90deg);
+}
+
+#seconda12{
+  position: absolute;
+  left: 1035px;
+  top:225px;
+}
+
+#seconda13{
+  position: absolute;
+  left: 1030px;
+  top:210px;
+}
+
+#seconda14{
+  position: absolute;
+  left: 1025px;
+  top:195px;
+}
+
+#seconda15{
+  position: absolute;
+  left: 1020px;
+  top:180px;
+}
+
+#seconda16{
+  position: absolute;
+  left: 1015px;
+  top:165px;
+}
+
+#seconda17{
+  position: absolute;
+  left: 1010px;
+  top:150px;
+}
+
+#seconda18{
+  position: absolute;
+  left: 982px;
+  top:231px;
+  transform:rotate(90deg);
+}
+
+#seconda19{
+  position: absolute;
+  left: 997px;
+  top:231px;
+  transform:rotate(90deg);
+}
+
+#seconda20{
+  position: absolute;
+  left: 1012px;
+  top:231px;
+  transform:rotate(90deg);
+}
+
+#seconda21{
+  position: absolute;
+  left: 1027px;
+  top:231px;
+  transform:rotate(90deg);
+}
+
+#seconda22{
+  position: absolute;
+  left: 997px;
+  top:150px;
+}
+
+#seconda23{
+  position: absolute;
+  left: 992px;
+  top:165px;
+}
+
+#seconda24{
+  position: absolute;
+  left: 987px;
+  top:180px;
+}
+
+#seconda25{
+  position: absolute;
+  left: 982px;
+  top:195px;
+}
+
+#seconda26{
+  position: absolute;
+  left: 977px;
+  top:210px;
+}
+
+#seconda27{
+  position: absolute;
+  left: 972px;
+  top:225px;
+}
+
+#seconda28{
+  position: absolute;
+  left: 1013px;
+  top:150px;
+}
+
+#seconda29{
+  position: absolute;
+  left: 1018px;
+  top:165px;
+}
+
+#seconda30{
+  position: absolute;
+  left: 1023px;
+  top:180px;
+}
+
+#seconda31{
+  position: absolute;
+  left: 1028px;
+  top:195px;
+}
+
+#seconda32{
+  position: absolute;
+  left: 1033px;
+  top:210px;
+}
+
+#seconda33{
+  position: absolute;
+  left: 1039px;
+  top:225px;
+}
+
+#line{
+  width: 13%;
+  position: absolute;
+  left: 630px;
+  top:280px;
+}
+
+#line2{
+  width: 13%;
+  position: absolute;
+  left: 880px;
+  top:280px;
+}
+
+/*green car magnet*/
+#greencar{
+  position: absolute;
+  left: 800px;
+  top: 400px;
+  font-size: 50pt;
+  transform:scaleX(-1) rotate(-5deg);
+  z-index: 10;
+}
+
+#redcar{
+  position: absolute;
+  left: 800px;
+  top: 440px;
+  font-size: 50pt;
+  transform:scaleX(-1) rotate(-15deg);
+  z-index: 8;
+}
+
+#cow{
+  position: absolute;
+  left: 790px;
+  top: 500px;
+  font-size: 50pt;
+  transform:rotate(-5deg);
+  z-index: 20;
+}
+
+#link{
+  position: absolute;
+  left: 800px;
+  top: 350px;
+  font-size: 30pt;
+  transform:rotate(125deg);
+  z-index: 0;
+}
+
+#link2{
+  position: absolute;
+  left: 805px;
+  top: 385px;
+  font-size: 35pt;
+  transform:rotate(150deg);
+  z-index: 0;
+}
+
+#link3{
+  position: absolute;
+  left: 805px;
+  top: 510px;
+  font-size: 30pt;
+  transform:rotate(150deg);
+  z-index: 7;
+}
+
+#vcatext{
+  position: absolute;
+  left: 650px;
+  top:800px;
+  color:#a7cfae;
+}
+
+#frozenpic{
+  width:800px;
+}
+
+#frozen{
+  font-size:10pt;
+  position: absolute;
+  left: 450px;
+  top:1400px;
+}
+
+#iab{
+  position: absolute;
+  left: 600px;
+  top:2100px;
+}
+
+#nyimg{
+  width:500px;
+}
+
+#ny{
+  position: absolute;
+  left:400px;
+  top:2500px;
+}
+
+#smeg{
+  position: absolute;
+  left:550px;
+  top:3150px;
+}
+
+#la {
+  position: absolute;
+  left: 600px;
+  top:3800px;
+}
