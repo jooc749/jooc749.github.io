@@ -1,0 +1,45 @@
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 40pt;
+  background: #f57114;
+  color: black;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#text{
+  width: 20%;
+  position: fixed;
+  text-align:center;
+  padding:20px 20px 20px 20px;
+}
+
+#text2 {
+  width: 20%;
+  position: fixed;
+  text-align:right;
+  right:50px;
+  top:35px;
+}
+
+#text3 {
+  width: 30%;
+  position: fixed;
+  text-align:left;
+  left:50px;
+  bottom:35px;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+
+a:hover{
+  color: white;
+}
