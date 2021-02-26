@@ -1,0 +1,225 @@
+body{
+  background:black;
+  font-family:Palatino, Literata, Times;
+
+}
+
+#text{
+    color:white;
+    font-family:Palatino,Literata, Times;
+    font-size:1rem;
+    text-align:center;
+    margin-top:100px;
+}
+
+#party{
+  color:white;
+  font-size:1.5rem;
+  font-family:Palatino,Literata,Times;
+  text-align:center;
+}
+
+#party1{
+  color:white;
+  display:inline-block;
+}
+
+#party1:hover{
+  color:pink;
+  font-style:italic;
+}
+
+#party2{
+  color:white;
+  display:inline-block;
+}
+
+#party2:hover{
+  color:green;
+  font-style:bold;
+}
+
+#party4{
+  display:inline-block;
+}
+
+#party4:hover{
+  color:yellowgreen;
+  font-style:italic;
+}
+
+#party3{
+  display:inline-block;
+}
+
+#party3:hover{
+  color:tomato;
+  font-style:bold;
+}
+
+#party5 {
+  display:inline-block;
+}
+
+#party5:hover{
+  color:red;
+  font-style:italic;
+}
+
+#partyline2{
+  text-align:center;
+  color:white;
+  font-size:1.5rem;
+}
+
+#partyline2_1{
+  display:inline-block;
+}
+
+#partyline2_1:hover{
+  color:blue;
+  font-style:italic;
+}
+
+#partyline2_2{
+  display:inline-block;
+}
+
+#partyline2_2:hover{
+  color:violet;
+}
+
+#partyline2_3{
+  display:inline-block;
+}
+
+#partyline2_3:hover{
+  color:orange;
+}
+
+#partyline2_4{
+  display:inline-block;
+}
+
+#partyline2_4:hover{
+  color:teal;
+}
+
+#partyline2_5{
+  display:inline-block;
+}
+
+#partyline2_5:hover{
+  color:hotpink;
+  font-style:italic;
+}
+
+#partyline3{
+  text-align:center;
+  font-size:1.5rem;
+  font-family:Palatino, Literata, Times;
+  color:white;
+}
+
+#partyline3_1, #partyline3_2, #partyline3_3, #partyline3_4, #partyline3_5 {
+  display:inline-block;
+  
+}
+
+#partyline3_1:hover{
+  color:purple;
+}
+
+.label:hover:after{
+  content:'A poem is written.';
+  opacity:100;
+}
+
+.label:after{
+  content:'_______________';
+  opacity:0;
+}
+
+#partyline4{
+  text-align:center;
+  color:white;
+  font-size:1.5rem;
+}
+
+#partyline4_1, #partyline4_2, #partyline4_3, #partyline4_4, #partyline4_5{
+  display:inline-block;
+}
+
+#partyline4_1:hover{
+  color:lightblue;
+}
+
+#partyline4_2:hover{
+  color:orange;
+}
+
+#partyline4_3:hover{
+  color:yellow;
+}
+
+#partyline4_4:hover{
+  color:rgb(0, 255, 115);
+}
+
+#partyline4_5:hover{
+  color:red;
+}
+
+#partyline5{
+  text-align:center;
+  font-size:1.5rem;
+  color:white;
+}
+
+#partyline5_1, #partyline5_2, #partyline5_3, #partyline5_4, #partyline5_5{
+  display:inline-block;
+}
+
+#partyline5_1:hover{
+  color:greenyellow;
+}
+
+#partyline5_2:hover{
+  color:violet;
+}
+
+#partyline5_3:hover{
+  color:teal;
+}
+
+#partyline5_4:hover{
+  color:hotpink;
+  text-transform:uppercase;
+}
+
+#partyline5_5:hover{
+  color:orangered;
+}
+
+.content{
+  margin-top:200px;
+}
+
+@media only screen and (min-width:800px){
+  #party, #partyline2, #partyline3, #partyline4, #partyline5{
+    font-size:2rem;
+    line-height:130%;
+  }
+
+  #text{
+    display:none;
+  }
+
+  #text2{
+    color:white;
+    font-family:Palatino,Literata, Times;
+    font-size:1rem;
+    text-align:center;
+    margin-top:100px;
+  }
+}
