@@ -1,0 +1,242 @@
+body{
+    background:black;
+}
+
+#circle{
+    animation-name:drop;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-out;
+    animation-delay:1s;
+    z-index:10;
+}
+
+@keyframes drop{
+    0%{top:200px }
+    25% {background-color:red;}
+    50% {background-color:rgb(0, 81, 255);}
+    75%{background-color:green;}
+    100% {top:555px; background:black;}
+}
+
+@media only screen and (min-width:450px){
+    body{
+        background:black;
+    }
+
+    #container{
+        display:none;
+    }
+
+    @keyframes drop{
+        display:none;
+    }
+
+    #linecontainer{
+        text-align:center;
+    }
+
+    #line {
+        width:500px;
+        height:500px;
+        border-radius:50%;
+        background:white;
+        display:inline-block;
+        position:relative;
+        top:160px;
+        z-index:0;
+    }
+
+    /* @keyframes insta{
+        0% {}
+        100% {width:500px; height:500px;}
+    } */
+
+    #dot{
+        width:3px;
+        height:200px;
+        background-color:red;
+        z-index:101;
+        position:fixed;
+        left:320px;
+        top:280px;
+        animation-name:clock;
+        animation-duration:5s;
+        animation-iteration-count:infinite;
+        
+
+    }
+
+    @keyframes clock{
+        0%{transform: rotate(20deg);}
+        25%{transform: rotate(45deg);}
+        50%{transform: rotate(60deg);}
+        75%{transform: rotate(80deg);}
+        100%{transform: rotate(125deg);}
+    }
+
+    #youtube{
+        display:none;
+    }
+    
+   
+        
+  
+    }
+  
+
+   
+
+
+
+@media only screen and (min-width:600px){
+    body{
+        background: white;
+    }
+
+    #line{
+        display:none;
+    }
+
+    @keyframes dot{
+    display:none;
+    }
+
+    @keyframes clock{
+    display:none;
+    }
+
+    #dot{
+    display:none;
+    }
+
+    #youtube {
+    width:250px;
+    height:150px;
+    background-color:red;
+    border-radius:20%;
+    position:fixed;
+    display:inline-block;
+    margin-left:50px;
+    margin-top:200px;
+    animation-name:redbox;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes redbox {
+        0% {width:350px; height:250px;}
+        100% {width:700px; height:450px;}
+    }
+
+    #triangle {
+            width: 0;
+            height: 0;
+            border-top: 100px solid transparent;
+            border-left: 150px solid white;
+            border-bottom: 100px solid transparent;
+            position:fixed;
+            left:350px;
+            top:325px;
+    }
+    
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:800px){
+    body{
+        background:white;
+    }
+
+    #espn{
+        width:250px;
+        height:100px;
+        background-color:red;
+        position:fixed;
+        animation-name:ebox;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes ebox{
+        0%{width:250px; height:100px;}
+        100% {width:700px; height:100px;}
+    }
+
+    #bottom{
+        width: 500px;
+        height:100px;
+        background-color:red;
+        position:fixed;
+        display:inline-block;
+        margin-top:200px;
+    }
+
+    #side {
+        width:100px;
+        height:300px;
+        background-color:red;
+        position:fixed;
+        display:inline-block;
+        margin-top:200px;
+    }
+
+    #realbottom{
+        width: 500px;
+        height:100px;
+        background-color:red;
+        position:fixed;
+        display:inline-block;
+        margin-top:400px;
+    }
+
+    #youtube{
+        display:none;
+    }
+
+    #triangle{
+        display:none;
+    }
+}
+
+#text {
+    font-size:30pt;
+    font-family:Helvetica;
+    font-weight:bold;
+    text-align:center;
+    margin-top:200px;
+}
+
+#circle{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:rgb(255, 59, 92);
+    position:relative;
+    top:20px;
+    display:inline-block;
+}
+
+#container{
+    text-align:center;
+}
+
+#circle2{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:rgba(0,0,0,0);
+    position:relative;
+    top:350px;
+    display:inline-block;
+    border:2px solid white;
+    z-index:100;
+}
+
+
+
