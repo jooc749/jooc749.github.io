@@ -1,5 +1,5 @@
 body{
-  background:black;
+  background:#0a0a0a;
   font-family:Palatino, Literata, Times;
 
 }
@@ -138,7 +138,7 @@ body{
 #partyline3_2_1{
   animation-name:text;
   animation-duration:3s;
-  animation-delay:4s;
+  animation-delay:5s;
   opacity:0;
   display:inline-block;
   font-size:1.55rem;

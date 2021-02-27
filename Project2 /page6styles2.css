@@ -1,0 +1,49 @@
+body {
+    font-family:Palatino, Literata, Times;
+}
+
+#page6p{
+    width:68%;
+}
+
+#page6p2, #page6p3{
+    font-size:1rem;
+    width:70%;
+    line-height:120%;
+}
+
+.content{
+    margin-left:40px;
+    margin-top:50px;
+    margin-bottom:150px;
+}
+
+.container{
+    float:left;
+    width:100%;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    margin:0px 0px 50px 0px;
+  }
+
+  #button {
+    display:inline-block;
+  }
+
+  @media only screen and (min-width:800px){
+  
+
+    /* #p2, #p3{
+        font-size:1.2rem;
+        width:40%;
+        line-height:140%;
+    } */
+
+    #page6p,#page6p2, #page6p3{
+        font-size:1.2rem;
+        width:50%;
+        line-height:140%;
+    }
+
+}

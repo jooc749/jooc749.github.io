@@ -1,0 +1,19 @@
+.circle1{
+    width:50px;
+    height:50px;
+    background: pink;
+    border-radius: 50%;
+    animation-name:circle1;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.circle1 hover {
+    animation-play-state: running;
+}
+
+@keyframes circle1{
+    0% {top:10px; left:200px;}
+    100%{top:500px;left:20px;}
+}
