@@ -13,6 +13,7 @@ body{
 #subheading{
     margin-top:10px;
     font-size:1em;
+    font-style:italic;
 }
 
 #subsubheading{
@@ -39,12 +40,16 @@ body{
     }
 
     #title{
-        font-size:4rem;
+        font-size:7rem;
+        -webkit-text-stroke: 0.8px white;
+        color:rgb(255,255,0, 0);
+       
     }
 
     #subheading{
         margin-top:30px;
-        font-size:1.5rem;
+        font-size:2.5rem;
+        font-style:normal;
     }
 
     #subsubheading{
