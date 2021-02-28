@@ -46,3 +46,14 @@ function draw(e) {
 
   ctx.stroke(); // draw it!
 }
+
+
+var button = document.getElementById("submitButton");
+var nameField = document.getElementById ("name");
+var sign = document.getElementById("sign");
+
+function createSign (){
+  sign.innerText = nameField.nodeValue;
+}
+
+button.addEventListener("click", createSign, false);

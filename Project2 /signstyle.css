@@ -3,9 +3,13 @@ body{
     color:white;
 }
 
+#container{
+    text-align:center;
+}
+
 #text{
     font-size:20pt;
-    text-align:center;
+    display:inline-block;
     margin-top:100px;
 }
 
@@ -13,12 +17,26 @@ body{
     font-size:30pt;
 } */
 
-#sign{
-    text-align:center;
-    margin-top:100px;
+#sign {
+    display:none;
 }
 
-@media only screen and (min-width: 320px) and (max-width:480px){
+.container2{
+    text-align:center;
+}
+
+div{
+    display:inline-block;
+    height:300px;
+    width:80%;
+    font-family: "Cedarville Cursive";
+    font-size:25pt;
+    color:white;
+}
+
+@import url (https://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+@media only screen and (min-width:800px){
     #body{
         width: 100%;
         background-size:cover;
@@ -30,8 +48,11 @@ body{
         letter-spacing: 2px;
     }
 
-    #sign {
-        display:none;
+    #sign{
+        text-align:center;
+        margin-top:100px;
     }
+
+    
 
 }
