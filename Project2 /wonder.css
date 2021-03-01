@@ -1,3 +1,8 @@
+body{
+    color:#0e0e0e;
+}
+
+
 :root {
     cursor:none;
     --cursorX: 50vw;
@@ -17,4 +22,71 @@
         rgba(0,0,0,.5) 80%,
         rgba(0,0,0,.95) 100%
     )
+}
+
+
+#wonder{
+    font-size:20px;
+    width:30%;
+    display:inline-block;
+}
+
+.direction{
+    text-align:center;
+    margin-top:390px;
+}
+
+
+#explore{
+    position:fixed;
+    top:20px;
+    left:50px;
+}
+
+#manifest{
+    position:fixed;
+    bottom:100px;
+    left:80px;
+}
+
+#possibility{
+    position:fixed;
+    bottom:130px;
+    right:20px;
+}
+
+#draw {
+    position:fixed;
+    top:120px;
+    left:180px;
+}
+
+#observe{
+    opacity:0;
+}
+
+@media only screen and (min-width:800px){
+    #wonder{
+        font-size:30px;
+        display:inline-block;
+        width:18%;
+    }
+
+    .direction{
+        margin-top:350px;
+       
+        text-align:center;
+    }
+
+    #explore, #draw, #manifest, #possibility{
+        font-size:20px;
+    }
+
+    #draw{
+        position:fixed;
+        left:730px;
+
+    }
+
+
 }
