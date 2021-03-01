@@ -25,13 +25,15 @@ body{
 }
 
 
-#wonder{
+
+
+#drag{
     font-size:20px;
     width:30%;
     display:inline-block;
 }
 
-.direction{
+.directionmobile{
     text-align:center;
     margin-top:390px;
 }
@@ -55,6 +57,10 @@ body{
     right:20px;
 }
 
+.direction{
+    opacity:0;
+}
+
 #draw {
     position:fixed;
     top:120px;
@@ -73,8 +79,8 @@ body{
     }
 
     .direction{
-        margin-top:350px;
-       
+        margin-top:330px;
+        opacity:100;
         text-align:center;
     }
 
@@ -82,10 +88,18 @@ body{
         font-size:20px;
     }
 
+    #possibility{
+        right:80px;
+    }
+
     #draw{
         position:fixed;
         left:730px;
 
+    }
+
+    .directionmobile{
+        display:none;
     }
  
 
