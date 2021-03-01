@@ -34,7 +34,7 @@ ul, ol{
 p{
     font-size:16px;
     width:80%;
-    line-height:150%;
+    line-height:180%;
     margin-left:30px;
 }
 
@@ -47,19 +47,13 @@ p{
     display:none;
 }
 
-#fruit{
-    
-    text-align:center;
-  
-}
+
 
 #drag1, #drag2, #drag3, #drag4 {
     display:none;
 }
 
-#plant {
-    text-align:center;
-}
+
 
 
 
