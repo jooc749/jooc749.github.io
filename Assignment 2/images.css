@@ -1,0 +1,174 @@
+body{
+    font-family:Arial;
+    background:rgb(14, 14, 14);
+}
+
+.header {
+    overflow:hidden;
+   
+    padding:20px 10px;
+}
+
+img{
+    width:80%;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#direction {
+    text-align:center;
+   
+}
+
+
+
+
+h1{
+    color:white;
+    font-size:30px;
+    
+    
+    
+}
+
+.header a {
+    float:left;
+    color:black;
+    text-align:center;
+    padding:12px;
+    text-decoration:none;
+    font-size:16px;
+    display:inline;
+}
+
+.header h1{
+    display:inline;
+}
+
+.header-right{
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.sidebar {
+    padding-top:15px;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color:black;
+    overflow-x:hidden;
+    transition:0.5s;
+
+}
+
+.sidebar a{
+    font-size:20px;
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    color:white;
+    display:block;
+    transition:0.2s;
+}
+
+.sidebar a:hover{
+    color:red;
+}
+
+.sidebar .closebtn {
+    position:absolute;
+    top:0;
+    right:10px;
+    font-size:40px;
+    margin-left:50px;
+    font-family:Arial;
+}
+
+#main{
+    
+    
+
+}
+
+.wrapper {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    grid-auto-rows:minmax(100px, auto);
+  
+    margin-top:50px;
+}
+
+
+.container{
+    text-align:center;
+}
+
+#content, #q2, #q3, #q4{
+    width:80%;
+    text-align: left;
+   line-height:150%;
+    display:inline-block;
+    color:rgb(253, 114, 0);
+    
+}
+
+#bey{
+    display:none;
+}
+#answer1, #answer2, #answer3, #answer4{
+    width:80%;
+    text-align:left;
+    line-height:150%;
+    display:inline-block;
+    color:white;
+}
+
+@media only screen and (min-width:500px){
+    #content, #q2, #q3, #q4,#answer1, #answer2, #answer3, #answer4{
+        width:60%;
+    }
+
+    #bey{
+        display:none;
+    }
+}
+
+@media only screen and (min-width:700px){
+    .flex1, .flex2, .flex3{
+        display:flex;
+        justify-content: space-between;
+        padding:25px;
+    }
+
+    #content, #q2, #q3, #q4,#answer1, #answer2, #answer3, #answer4{
+        width:40%;
+        
+    }
+
+  #fyre{
+      width:50vh;
+  }
+
+    body{
+        font-size:14px;
+    }
+   
+    .images{
+        text-align:center;
+    }
+
+    #bey{
+        display:inline-block;
+        width:50%;
+    }
+
+    #fyre{
+        display:inline-block;
+    }
+
+    
+}
