@@ -12,6 +12,16 @@ document.getElementsByClassName('a2')[0].onclick = function(){
     alert("Assignment 2: Digital Zine");
 }
 
+//when clicking class 'a3', alert will display "text" and then go to link
+document.getElementsByClassName('a3')[0].onclick = function(){
+    alert("Assignment 3: Intro to JavaScript Exercise");
+}
+
+//when clicking class 'a4', alert will display "text" and then go to link
+document.getElementsByClassName('a4')[0].onclick = function(){
+    alert("Assignment 4: Airtable Demo");
+}
+
 //when clicking class 'e1', alert will display "text" and then go to link//
 
 document.getElementsByClassName('e1')[0].onclick = function(){
