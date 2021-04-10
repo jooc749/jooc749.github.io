@@ -1,0 +1,603 @@
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0{
+    display:list-item;
+    list-style:none;
+    font-size:0.8rem;
+}
+
+body {
+    font-family: 'Gilda Display', serif;
+    color:bisque;
+    background:rgb(12, 12, 12);
+    padding:5px;
+}
+
+.yaxis{
+    width:1px;
+    background:bisque;
+    height:70vh;
+}
+
+.openbtn{
+    font-size:0.8rem;
+}
+
+h2{
+    font-weight:normal;
+    padding:30px;
+    font-size:1rem;
+}
+
+.uptown, .midtown, .downtown, .brooklyn{
+    display:inline-block;
+    font-size:1rem;
+    padding:10px;
+
+}
+
+h3{
+   padding:30px;
+   font-weight:bold;
+}
+
+.coffee-container{
+    /* padding:1rem; */
+    border: 1px solid bisque;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius:50%;
+    display:inline-block;
+    
+}
+
+.store-image {
+   display:none;
+}
+
+.store-image.active{
+    display:block;
+  
+}
+
+.address-location {
+    display:none;
+    width:100%;
+}
+
+.address-location.active{
+    display:block;
+}
+
+.shop-title{
+    display:none;
+    width:100%;
+}
+
+.shop-title.active{
+    display:block;
+  
+}
+
+.yaxis{
+    width:1px;
+    background:bisque;
+    height:78vh;
+}
+
+.container{
+    display:block;
+    position:absolute;
+    margin-left:50px;
+    margin-top:10px;
+    margin-right:5px;
+  
+}
+
+.line {
+    display:block;
+    font-size:0.8rem;
+    position:absolute;
+    margin-top:10px;
+    line-height:200%;
+}
+
+p{
+    text-align:center;
+    position:absolute;
+    width:50%;
+    margin-top:50%;
+    margin-bottom:50%;
+    margin-left:25%;
+}
+
+
+.filter {
+    position:sticky;
+    bottom:20px;
+    text-align:right;
+
+}
+
+.innergroup {
+    display:flex;
+}
+
+
+.title{
+    display:inline-block;
+    font-size:0.5rem;
+}
+
+.filtermenu {
+    display:inline-block;
+    text-align:right;
+    position:relative;
+    right:0px;
+}
+
+.header {
+    display:flex;
+}
+
+.filtermain{
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.sidebar {
+    padding-top:15px;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color:#A8947C;
+    overflow-x:hidden;
+    transition:0.5s;
+}
+
+.sidebar a {
+    font-size:20px;
+    padding:8px 8px 8px 32px;
+    text-decoration:none;
+    color:black;
+    display:block;
+    transition:0.2s;
+}
+
+button{
+    background-color:transparent;
+    border:none;
+    color:bisque;
+    font-family:'Gilda Display', serif;
+    font-size:1.5rem;
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.category{
+    padding:40px;
+    line-height:150%;
+}
+
+.closebtn {
+    text-align:right;
+    margin-right:20px;
+}
+
+
+
+.coffee-description{
+    width:40%;
+    background-color:#A8947C;
+    color:black;
+    position:absolute;
+    margin-left: 100px;
+    z-index:100;
+    /* margin-top:150px; */
+}
+
+.store-image{
+    width:30%;
+    padding:30px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+
+.location{
+    text-align:right;
+    display:flex;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+}
+
+a{
+    text-decoration:none;
+    color:bisque;
+}
+
+.coffee-container.uptown.double_dutch{
+    position:fixed;
+    top:150px;
+    left:120px;
+}
+
+.coffee-container.midtown.culture.more_than_coffee{
+    position:fixed;
+    top:400px;
+    left:180px;
+}
+
+@media only screen and (min-width:800px){
+    body {
+        font-family: 'Gilda Display', serif;
+        color:bisque;
+        background:rgb(12, 12, 12);
+        padding:5px;
+    }
+    
+    #location{
+        text-align:right;
+        
+    }
+    
+    h2{
+        font-weight:normal;
+        padding:30px;
+        font-size:1rem;
+    }
+    
+    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.stisland1{
+        display:inline-block;
+        font-size:1rem;
+        padding:10px;
+    }
+    
+    h3{
+       padding:30px;
+       font-weight:bold;
+    }
+    
+    .coffee-container{
+        padding:1rem;
+        border: 1px solid bisque;
+        width:0.01rem;
+        height:0.01rem;
+        border-radius:50%;
+        display:inline-block;
+    }
+    
+    .store-image {
+       display:none;
+    }
+    
+    .store-image.active{
+        display:block;
+      
+    }
+    
+    .address-location {
+        display:none;
+        width:100%;
+    }
+    
+    .address-location.active{
+        display:block;
+    }
+    
+    .shop-title{
+        display:none;
+        width:100%;
+    }
+    
+    .shop-title.active{
+        display:block;
+      
+    }
+    
+    .yaxis{
+        width:1px;
+        background:bisque;
+        height:70vh;
+    }
+    
+    .container{
+        display:inline;
+       
+    }
+    
+    .line {
+        display:block;
+        line-height:350%;
+    }
+
+    .line2 {
+        display:block;
+        transform:rotate(-90deg);
+        /* position:absolute;
+        left:-220px;
+        top:350px; */
+        position:relative;
+       
+        top:250px;}
+
+    .eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .seventyfive0, .eighty0, .seventy0, .sixtyfive0, .sixty0{
+        display:list-item;
+        list-style:none;
+        font-size:1rem;
+    }
+    
+    
+    
+    .filter {
+        position:sticky;
+        bottom:20px;
+        text-align:right;
+        font-size:1.5rem;
+    }
+    
+    .innergroup {
+        display:flex;
+    }
+    
+    
+    .title{
+        display:inline-block;
+    }
+    
+    .filtermenu {
+        display:inline-block;
+        text-align:right;
+        position:relative;
+        right:0px;
+    }
+    
+    .header {
+        display:flex;
+    }
+    
+    .filtermain{
+        position:absolute;
+        right:10px;
+        top:30px;
+    }
+    
+    .sidebar {
+        padding-top:15px;
+        height:100%;
+        width:0;
+        position:fixed;
+        z-index:1;
+        top:0;
+        right:0;
+        background-color:transparent;
+        overflow-x:hidden;
+        transition:0s;
+        text-align:right;
+    }
+    
+    .sidebar a {
+        font-size:20px;
+        padding:8px 8px 8px 32px;
+        text-decoration:none;
+        color:black;
+        display:block;
+        transition:0.2s;
+    }
+    
+    button{
+        background-color:transparent;
+        border:none;
+        color:bisque;
+        font-family:'Gilda Display', serif;
+        font-size:1.5rem;
+        position:absolute;
+        right:10px;
+        top:30px;
+    }
+    
+    .category{
+        padding:40px;
+        line-height:150%;
+        cursor:pointer;
+    }
+    
+    .closebtn {
+        text-align:right;
+        margin-right:20px;
+    }
+    
+    .openbtn{
+        font-size:1rem;
+        position:fixed;
+        cursor:pointer;
+    }
+    
+    .coffee-description{
+        width:40%;
+        height:auto;
+        background-color:#A8947C;
+        color:black;
+        position:absolute;
+        margin-left: 300px;
+        z-index:100;
+        margin-top:150px;
+        display:none;
+    }
+    
+    .store-image{
+        width:30%;
+        padding:30px;
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    
+    .location{
+        text-align:right;
+        display:flex;
+        position:absolute;
+        bottom:20px;
+        right:10px;
+    }
+    
+    a{
+        text-decoration:none;
+        color:bisque;
+    }
+    
+    .coffee-container.uptown.double_dutch{
+        position:absolute;
+        top:580px;
+        left:250px;
+    }
+
+    .coffee-container.midtown.culture.more_than_coffee{
+        position:absolute;
+        top:380px;
+        left:400px;
+    }
+    
+    p{
+        display:none;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    .midtown, .brooklyn, .downtown, .uptown, .stisland{
+        display:none;
+    }
+
+    .forever{
+        position:absolute;
+        top:35px;
+        left:200px;
+    }
+
+    .semicolon{
+        position:absolute;
+        top:235px;
+        left:80px;
+    }
+
+    .salento{
+        position:absolute;
+        top:200px;
+        left:270px;
+    }
+
+    .chipped_cup{
+        position:absolute;
+        top:325px;
+        left:80px;
+    }
+
+    .manhattanville{
+        position:absolute;
+        top:385px;
+        left:320px;
+    }
+
+   .el_barrista{
+       position:absolute;
+       top:590px;
+       left:500px;
+   }
+
+   .black_press{
+       position:absolute;
+       top:990px;
+       left:80px;
+   }
+
+   .solid_state{
+       position:absolute;
+       top:1010px;
+       left:100px;
+   }
+
+   .box_kite{
+       position:absolute;
+       top:1000px;
+       left:80px;
+   }
+
+   .le_reveil{
+       position:absolute;
+       top:1020px;
+       left:550px;
+   }
+
+   .daniels{
+       position:absolute;
+       top:1080px;
+       left:550px;
+   }
+
+   .locationnavbar{
+       overflow:hidden;
+       background-color:pink;
+   }
+
+   .subnav{
+       float:left;
+       overflow:hidden;
+   }
+
+   .subnavbtn{
+       position:fixed;
+       left:10px;
+       top:110px;
+       width:30px;
+       height:30px;
+       border-radius:50%;
+       background:rgb(75, 52, 44);
+       z-index:100;
+       
+   }
+
+   .subnav .subnavbtn{
+       margin:0;
+       transform:rotate(90deg);
+   }
+
+   .navbar a:hover, .subnav-content{
+       background:rgb(12, 12, 12);
+   }
+
+   .subnav-content{
+       display:none;
+       position:fixed;
+        left:-200px;
+       top:350px;
+       height:120px;
+       z-index:1;
+   }
+
+   .bronx1{
+       padding-right:20px;
+   }
+
+   .bronx{
+       position:absolute;
+       top:360px;
+       left:350px;
+   }
+
+
+   .subnav:hover .subnav-content{
+       display:block;
+        
+        transform:rotate(-90deg);
+    
+        
+     
+   }
+}

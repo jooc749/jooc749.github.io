@@ -1,0 +1,1105 @@
+body {
+    font-family: 'Gilda Display', serif;
+    color:bisque;
+    background:rgb(12, 12, 12);
+    padding:5px;
+}
+
+.information{
+    display:none;
+}
+
+.openbtn{
+    font-size:0.8rem;
+}
+
+h2{
+    font-weight:normal;
+    padding:30px;
+    font-size:1rem;
+}
+
+.uptown, .midtown, .downtown, .brooklyn{
+    display:inline-block;
+    font-size:1rem;
+    padding:10px;
+    /* width:100%; */
+}
+
+h3{
+   padding:30px;
+   font-weight:bold;
+}
+
+.coffee-container{
+    /* padding:1rem; */
+    border: 1px solid bisque;
+    width:0.01rem;
+    height:0.01rem;
+    border-radius:50%;
+    /* display:inline-block; */
+}
+
+.store-image {
+   display:none;
+}
+
+.store-image.active{
+    display:block;
+  
+}
+
+.address-location {
+    display:none;
+    width:100%;
+}
+
+.address-location.active{
+    display:block;
+}
+
+.shop-title{
+    display:none;
+    width:100%;
+}
+
+.shop-title.active{
+    display:block;
+  
+}
+
+.yaxis{
+    width:1px;
+    background:bisque;
+    height:78vh;
+}
+
+.container{
+    display:none;
+    position:absolute;
+    margin-left:25px;
+    margin-top:10px;
+    margin-right:5px;
+}
+
+.line {
+    display:none;
+    font-size:0.8rem;
+    position:absolute;
+    margin-top:10px;
+}
+
+p{
+    text-align:center;
+    position:absolute;
+    width:50%;
+    margin-top:50%;
+    margin-bottom:50%;
+    margin-left:25%;
+}
+
+
+.filter {
+    position:sticky;
+    bottom:20px;
+    text-align:right;
+
+}
+
+.innergroup {
+    display:flex;
+}
+
+
+.title{
+    display:inline-block;
+    font-size:0.5rem;
+}
+
+.filtermenu {
+    display:inline-block;
+    text-align:right;
+    position:relative;
+    right:0px;
+}
+
+.header {
+    display:flex;
+}
+
+.filtermain{
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.sidebar {
+    padding-top:15px;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color:#A8947C;
+    overflow-x:hidden;
+    transition:0.5s;
+}
+
+.sidebar a {
+    font-size:20px;
+    padding:8px 8px 8px 32px;
+    text-decoration:none;
+    color:black;
+    display:block;
+    transition:0.2s;
+}
+
+button{
+    background-color:transparent;
+    border:none;
+    color:bisque;
+    font-family:'Gilda Display', serif;
+    font-size:1.5rem;
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.category{
+    padding:40px;
+    line-height:150%;
+}
+
+.closebtn {
+    text-align:right;
+    margin-right:20px;
+}
+
+
+
+.coffee-description{
+    width:40%;
+    background-color:#A8947C;
+    color:black;
+    position:absolute;
+    margin-left: 100px;
+    z-index:100;
+    /* margin-top:150px; */
+}
+
+.store-image{
+    width:30%;
+    padding:30px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+
+.location{
+    text-align:right;
+    display:flex;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+}
+
+a{
+    text-decoration:none;
+    color:bisque;
+}
+
+/* .coffee-container.uptown.double_dutch{
+    position:fixed;
+    top:150px;
+    left:120px;
+}
+
+.coffee-container.midtown.culture.more_than_coffee{
+    position:fixed;
+    top:400px;
+    left:180px;
+} */
+
+@media only screen and (min-width:800px){body {
+    font-family: 'Gilda Display', serif;
+    color:bisque;
+    background:rgb(12, 12, 12);
+    padding:5px;
+}
+
+#location{
+    text-align:right;
+    
+}
+
+h1{
+    font-size:2rem;
+}
+
+h2{
+    font-weight:normal;
+    padding:30px;
+    font-size:1rem;
+}
+
+/* .uptown, .midtown, .downtown, .brooklyn, .StIsland {
+    display:inline-block;
+    font-size:1rem;
+    padding:10px;
+} */
+
+.uptown, .midtown, .downtown, .brooklyn, .StIsland, .bronx{
+    font-size:1rem;
+    display:inline-block;
+    padding:10px;
+}
+
+
+
+/* .uptown{
+    margin-left:20px;
+}
+
+.midtown{
+    margin-left:30px;
+}
+
+.downtown{
+    margin-left:50px;
+} */
+h3{
+   padding:30px;
+   font-weight:bold;
+}
+
+.coffee-container{
+    /* padding:1rem; */
+    border: 1px solid bisque;
+    width:0.05rem;
+    height:0.05rem;
+    border-radius:50%;
+    display:inline-block;
+}
+
+.store-image {
+   display:none;
+}
+
+.store-image.active{
+    display:block;
+  
+}
+
+.address-location {
+    display:none;
+    width:100%;
+}
+
+.address-location.active{
+    display:block;
+}
+
+.shop-title{
+    display:none;
+    width:100%;
+}
+
+.shop-title.active{
+    display:block;
+  
+}
+
+.yaxis{
+    width:1px;
+    background:bisque;
+    height:70vh;
+}
+
+
+
+.container{
+    display:inline;
+    position:absolute;
+    left:50px;
+    right:20px;
+}
+
+.line {
+    display:block;
+    transform:rotate(-90deg);
+    /* position:absolute;
+    left:-220px;
+    top:350px; */
+    position:relative;
+    left:-250px;
+    top:250px;
+}
+
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .twelve, .eleven, .ten, .nine, .eight, .seven, .six, .five, .four, .three, .two, .one, .houston, .prince, .canal, .worth, .chambers, .Barclay, .Battery{
+    display:list-item;
+    list-style:none;
+}
+
+.filter {
+    position:fixed;
+    bottom:20px;
+    text-align:right;
+    font-size:1.5rem;
+}
+p{
+    display:none;
+}
+
+.innergroup {
+    display:flex;
+}
+
+
+.title{
+    display:inline-block;
+}
+
+.filtermenu {
+    display:inline-block;
+    text-align:right;
+    position:relative;
+    right:0px;
+}
+
+.header {
+    display:flex;
+}
+
+.filtermain{
+    position:absolute;
+    right:10px;
+    top:30px;
+
+}
+
+.sidebar {
+    padding-top:15px;
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    background-color:transparent;
+    overflow-x:hidden;
+    transition:0.5s;
+    text-align:right;
+}
+
+.sidebar a {
+    font-size:20px;
+    padding:8px 8px 8px 32px;
+    text-decoration:none;
+    color:black;
+    display:block;
+    transition:0.2s;
+   
+}
+
+button{
+    background-color:transparent;
+    border:none;
+    color:bisque;
+    font-family:'Gilda Display', serif;
+    font-size:1.5rem;
+    position:absolute;
+    right:10px;
+    top:30px;
+}
+
+.category{
+    padding:40px;
+    line-height:150%;
+}
+
+.closebtn {
+    text-align:right;
+    margin-right:20px;
+}
+
+
+
+.coffee-description{
+    width:250px;
+    height:auto;
+    background-color:#A8947C;
+    color:black;
+    position:absolute;
+    left: 600px;
+    /* z-index:100; */
+    /* display:none; */
+    
+    
+}
+
+.detailheader{
+    display:none;
+}
+
+.detailheader.active{
+    display:flex;
+}
+
+.detailtitle{
+    display:inline-block;
+    font-size:0.8rem;
+}
+
+.detailheader-right{
+    display:inline-block;
+    text-align:right;
+    position:absolute;
+    right:10px;
+
+
+}
+
+
+.store-image{
+    width:30%;
+    padding:30px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.location{
+    text-align:right;
+    display:flex;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+}
+
+.openbtn{
+    position:fixed;
+    font-size:1rem;
+}
+
+a{
+    text-decoration:none;
+    color:bisque;
+}
+.coffee-container.uptown.double_dutch{
+    position:absolute;
+    top:80px;
+    left:140px;
+}
+
+.coffee-container.midtown.culture.more_than_coffee{
+    position:absolute;
+    top:170px;
+    left:180px;
+}
+
+.coffee-container.brooklyn.ppl.vegan.more_than_coffee.aesthetic{
+    position:absolute;
+    top:380px;
+    left:800px;
+}
+
+.coffee-container.brooklyn.aesthetic.brooklyn_roasting_one{
+    position:absolute;
+    top:400px;
+    left:750px;
+}
+
+.coffee-container.bronx.dog_friendly.clipper{
+    position:absolute;
+    top:10px;
+    left:850px;
+}
+
+.coffee-container.uptown.more_than_coffee.poc_owned.aesthetic.salento{
+    position:absolute;
+    top:10px;
+    left:300px;
+}
+
+.coffee-container.uptown.black_press.dog_friendly.more_than_coffee{
+    position:absolute;
+    top:120px;
+    left:100px;
+}
+
+.coffee-container.uptown.le_reveil.more_than_coffee{
+    position:absolute;
+    top:120px;
+    left:350px;
+}
+
+.coffee-container.uptown.chipped_cup.vegan.aesthetic{
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+
+.coffee-container.uptown.daniels.more_than_coffee{
+    position:absolute;
+    top:130px;
+    left:300px;
+}
+
+.coffee-container.uptown.manhattanville.vegan.aesthetic{
+    position:absolute;
+    top:80px;
+    left:230px;
+}
+
+.coffee-container.uptown.semicolon.more_than_coffee.aesthetic{
+    position:absolute;
+    top:30px;
+    left:70px;
+}
+
+.coffee-container.uptown.box_kite{
+    position:absolute;
+    top:110px;
+    left:100px;
+}
+
+.coffee-container.uptown.forever.dog_friendly.woman_owned.vegan.more_than_coffee{
+    position:absolute;
+    top:5px;
+    left:110px;
+}
+
+.coffee-container.uptown.solid_state.dog_friendly{
+    position:absolute;
+    top:110px;
+    left:110px;
+}
+
+.coffee-container.uptown.el_barrista.poc_owned.vegan.more_than_coffee{
+    position:absolute;
+    top:80px;
+    left:320px;
+}
+
+.coffee-container.midtown.more_than_coffee.bibble{
+    position:absolute;
+    top:150px;
+    left:140px;
+}
+
+.coffee-container.midtown.vegan.old_country{
+    position:absolute;
+    top:180px;
+    left:100px;
+}
+
+.coffee-container.midtown.woman_owned.vegan.more_than_coffee.poc_owned.mamas{
+    position:absolute;
+    top:150px;
+    left:350px;
+}
+
+.coffee-container.midtown.zibetto.more_than_coffee{
+    position:absolute;
+    top:140px;
+    left:180px;
+}
+
+.coffee-container.midtown.rex.vegan.more_than_coffee{
+    position:absolute;
+    top:150px;
+    left:50px;
+}
+
+.coffee-container.midtown.for_five.more_than_coffee{
+    position:absolute;
+    top:150px;
+    left:185px;
+}
+
+.coffee-container.downtown.aesthetic.more_than_coffee.shiki{
+    position:absolute;
+    top:400px;
+    left:80px;
+}
+
+.coffee-container.downtown.aesthetic.more_than_coffee.ralphs{
+    position:absolute;
+    top:250px;
+    left:200px;
+}
+
+.coffee-container.downtown.dog_friendly.more_than_coffee.vegan.saltwater{
+    position:absolute;
+    top:320px;
+    left:130px;
+}
+
+.coffee-container.downtown.dog_friendly.laughing_man{
+    position:absolute;
+    top:400px;
+    left:20px;
+}
+
+.coffee-container.downtown.ethical.stumptown{
+    position:absolute;
+    top:310px;
+    left:130px;
+}
+
+.coffee-container.downtown.more_than_coffee.blackstone{
+    position:absolute;
+    top:320px;
+    left:10px;
+}
+
+.coffee-container.downtown.more_than_coffee.waypoint{
+    position:absolute;
+    top:400px;
+    left:380px;
+}
+
+.coffee-container.downtown.more_than_coffee.kona{
+    position:absolute;
+    top:380px;
+    left:300px;
+}
+
+.coffee-container.downtown.more_than_coffee.amazon{
+    position:absolute;
+    top:430px;
+    left:150px;
+}
+
+.coffee-container.downtown.poc_owned.dog_friendly.aesthetic.dreamers{
+    position:absolute;
+    top:410px;
+    left:380px;
+}
+
+.coffee-container.downtown.vegan.aesthetic.now_or_never{
+    position:absolute;
+    top:410px;
+    left:80px;
+}
+
+.coffee-container.downtown.vegan.aesthetic.everyman{
+    position:absolute;
+    top:340px;
+    left:320px;
+}
+
+.coffee-container.downtown.vegan.dog_friendly.more_than_coffee.aesthetic.urban_backyard{
+    position:absolute;
+    top:380px;
+    left:280px;
+}
+
+.coffee-container.downtown.vegan.dog_friendly.bean{
+    position:absolute;
+    top:350px;
+    left:250px;
+}
+
+.coffee-container.downtown.vegan.ethical.more_than_coffee.seveneightseven{
+    position:absolute;
+    top:360px;
+    left:380px;
+}
+
+.coffee-container.downtown.vegan.ethical.la_colombe{
+    position:absolute;
+    top:370px;
+    left:220px;
+}
+
+.coffee-container.downtown.vegan.more_than_coffee.patoro{
+    position:absolute;
+    top:450px;
+    left:370px;
+}
+
+.coffee-container.downtown.vegan.woman_owned.grumpy{
+    position:absolute;
+    top:400px;
+    left:370px;
+}
+
+.coffee-container.downtown.vegan.blue_bottle{
+    position:absolute;
+    top:440px;
+    left:50px;
+}
+
+.coffee-container.downtown.vegan.ludlow{
+    position:absolute;
+    top:390px;
+    left:380px;
+}
+
+.coffee-container.downtown.vegan.yours{
+    position:absolute;
+    top:390px;
+    left:280px;
+}
+
+.coffee-container.downtown.woman_owned.more_than_coffee.aesthetic.maman{
+    position:absolute;
+    top:390px;
+    left:10px;
+}
+
+.coffee-container.downtown.woman_owned.vegan.coffee_project_west{
+    position:absolute;
+    top:280px;
+    left:130px;
+}
+
+.coffee-container.downtown.elsewhere{
+    position:absolute;
+    top:360px;
+    left:370px;
+}
+
+.coffee-container.downtown.gasoline.vegan.ethical{
+    position:absolute;
+    top:380px;
+    left:270px;
+}
+
+.coffee-container.downtown.saturdays.dog_friendly.vegan.aesthetic{
+    position:absolute;
+    top:400px;
+    left:230px;
+}
+
+.coffee-container.downtown.ninth_street.vegan{
+    position:absolute;
+    top:360px;
+    left:400px;
+}
+
+.coffee-container.downtown.velvette.vegan{
+    position:absolute;
+    top:410px;
+    left:350px;
+}
+
+.coffee-container.downtown.lazy_llama.vegan.more_than_coffee{
+    position:absolute;
+    top: 410px;
+    left:340px;
+}
+
+.coffee-container.downtown.downtown_coffee.dog_friendly.more_than_coffee{
+    position:absolute;
+    top:460px;
+    left:400px;
+}
+
+.coffee-container.downtown.happy_bones.aesthetic.vegan{
+    position:absolute;
+    top:420px;
+    left:260px;
+}
+
+.coffee-container.downtown.black_star.more_than_coffee{
+    position:absolute;
+    top:360px;
+    left:10px;
+}
+
+.coffee-container.downtown.kettl.more_than_coffee.aesthetic{
+    position:absolute;
+    top:350px;
+    left:280px;
+}
+
+.coffee-container.downtown.kobrick.aesthetic.more_than_coffee{
+    position:absolute;
+    top:280px;
+    left:10px;
+}
+
+.coffee-container.downtown.blue_spoon.vegan.more_than_coffee{
+    position:absolute;
+    top:450px;
+    left:100px;
+}
+
+.coffee-container.downtown.birch.more_than_coffee{
+    position:absolute;
+    top:450px;
+    left:240px;
+}
+
+.coffee-container.downtown.kam_hing.poc_owned{
+    position:absolute;
+    top: 440px;
+    left:200px;
+}
+
+
+.coffee-container.downtown.whistle.more_than_coffee{
+    position:absolute;
+    top:360px;
+    left:250px;
+}
+
+.main_st{
+    position:absolute;
+    top:530px;
+    left:120px;
+}
+
+.coffee-container.downtown.ole.aesthetic.more_than_coffee{
+    position:absolute;
+    top:240px;
+    left:200px;
+}
+
+.coffee-container.downtown.merriweather.vegan.more_than_coffee{
+    position:absolute;
+    top:350px;
+    left:20px;
+}
+
+.coffee-container.downtown.mudpark.vegan.more_than_coffee{
+    position:absolute;
+    top:430px;
+    left:385px;
+}
+
+.coffee-container.downtown.starbucks.vegan{
+    position:absolute;
+    top:450px;
+    left:280px;
+}
+
+
+.coffee-container.brooklyn.black_flamingo.aesthetic.vegan{
+    position:absolute;
+    top:460px;
+    left:700px;
+}
+
+.coffee-container.brooklyn.aesthetic.kaigo{
+  position:absolute;
+    top:440px;
+    left:705px;
+}
+
+.coffee-container.brooklyn.joe.vegan{
+    position:absolute;
+    top:420px;
+    left:705px;
+}
+
+.coffee-container.brooklyn.woman_owned.ethical.feed{
+    position:absolute;
+    top:420px;
+    left:695px;
+}
+
+.coffee-container.brooklyn.dog_friendly.woman_owned.more_than_coffee.vineapple{
+    position:absolute;
+    top: 415px;
+    left:700px;
+}
+
+.coffee-container.brooklyn.vegan.ethical.beepublic{
+    position:absolute;
+    top:405px;
+    left:700px;
+}
+
+.coffee-container.brooklyn.bluestone.vegan.more_than_coffee.aesthetic{
+    position:absolute;
+    top:405px;
+    left:690px;
+}
+
+.coffee-container.hvrminn.aesthetic.brooklyn{
+    position:absolute;
+    top:390px;
+    left:695px;
+}
+
+.coffee-container.brooklyn.aesthetic.brooklyn_roasting_one{
+    position:absolute;
+    top:385px;
+    left:710px;
+}
+
+.coffee-container.brooklyn.dog_friendly.more_than_coffee.oxalis{
+    position:absolute;
+    top:360px;
+    left:720px;
+}
+
+.coffee-container.brooklyn.out_of_office.dog_friendly.woman_owned.vegan.more_than_coffee{
+    position:absolute;
+    top:360px;
+    left:730px;
+}
+
+.coffee-container.brooklyn.ppl.vegan.more_than_coffee.aesthetic{
+    position:absolute;
+    top:355px;
+    left:725px;
+}
+
+.coffee-container.brooklyn.vegan.partners{
+    position:absolute;
+    top:340px;
+    left:715px;
+}
+
+.coffee-container.brooklyn.dog_friendly.more_than_coffee.weekends{
+    position:absolute;
+    top:330px;
+    left:725px;
+}
+
+.coffee-container.brooklyn.ethical.more_than_coffee.bakeri{
+    position:absolute;
+    top:320px;
+    left:725px;
+}
+
+.coffee-container.brooklyn.ethical.poc_owned.devocion{
+    position:absolute;
+    top:320px;
+    left:715px;
+}
+
+.coffee-container.brooklyn.more_than_coffee.qahwah{
+    position:absolute;
+    top:320px;
+    left:735px;
+}
+
+.coffee-container.brooklyn.copper_mug.aesthetic{
+    position:absolute;
+    top:310px;
+    left:725px;
+}
+
+.coffee-container.brooklyn.upright.vegan.more_than_coffee{
+    position:absolute;
+    top:280px;
+    left:725px;
+}
+
+.coffee-container.brooklyn.eleva.vegan.more_than_coffee{
+    position:absolute;
+    top:320px;
+    left:800px;
+}
+
+.coffee-container.brooklyn.variety.vegan{
+    position:absolute;
+    top:350px;
+    left:800px;
+}
+
+.coffee-container.brooklyn.gregorys.vegan{
+    position:absolute;
+    top:420px;
+    left:740px;
+}
+
+.coffee-container.brooklyn.ethical.brooklyn_roasting_two{
+    position:absolute;
+    top:395px;
+    left:760px;
+}
+
+.brooklyn.more_than_coffee.parlor{
+    position:absolute;
+    top:405px;
+    left:760px;
+}
+
+.brooklyn.kitten.ethical{
+    position:absolute;
+    top:400px;
+    left:780px;
+}
+
+.brooklyn.little_sweet.more_than_coffee{
+    position:absolute;
+    top:410px;
+    left:770px;
+}
+
+.brooklyn.woman_owned.aesthetic.white_noise{
+    position:absolute;
+    top:420px;
+    left:765px;
+}
+
+.brooklyn.hungry_ghost.vegan{
+    position:absolute;
+    top:430px;
+    left:770px;
+}
+
+.about{
+    position:absolute;
+    top:440px;
+    left:750px;
+}
+
+.absolute{
+    position:absolute;
+    top:450px;
+    left:760px;
+}
+
+.volkan{
+    position:absolute;
+    top:460px;
+    left:750px;
+}
+
+.bittersweet{
+    position:absolute;
+    top:410px;
+    left:800px;
+}
+
+.oslo{
+    position:absolute;
+    top:330px;
+    left:10px;
+}
+
+.rebel{
+    position:absolute;
+    top:310px;
+    left:10px;
+}
+
+.coffee_project_east{
+    position:absolute;
+    top:370px;
+    left:340px;
+}
+
+
+.chai_spot{
+    position:absolute;
+    top:370px;
+    left:280px;
+}
+
+.leon_dore{
+    position:absolute;
+    top:400px;
+    left:280px;
+}
+
+}
