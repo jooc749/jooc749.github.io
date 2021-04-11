@@ -20,7 +20,7 @@ h2{
 }
 
 .StIsland, .bronx,.uptown, .midtown, .downtown, .brooklyn{
-    display:block;
+    display:inline-block;
     font-size:1rem;
     padding:10px;
    
@@ -93,7 +93,7 @@ h3{
 
 
 .line2  {
-    display:inline;
+    display:inline-block;
     font-size:0.8rem;
     position:absolute;
     margin-top:auto;
@@ -161,7 +161,7 @@ h3{
     z-index:1;
     top:0;
     right:0;
-    background-color:transparent;
+    background-color:rgb(12, 12, 12);
     overflow-x:hidden;
     transition:0.5s;
     text-align:right;
