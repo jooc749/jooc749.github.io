@@ -1,4 +1,4 @@
-.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0{
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0{
     display:list-item;
     list-style:none;
     font-size:0.8rem;
@@ -47,6 +47,10 @@ h3{
     border-radius:50%;
     display:inline-block;
     
+}
+
+.subnav{
+    display:none;
 }
 
 .store-image {
@@ -308,7 +312,7 @@ a{
     
     .container{
         display:inline;
-       
+
     }
     
     .line {
