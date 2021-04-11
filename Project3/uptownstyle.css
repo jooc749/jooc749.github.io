@@ -171,10 +171,11 @@ p{
     position:fixed;
     z-index:1;
     top:0;
-    right:0;
-    background-color:#A8947C;
+    right:-20px;
+    background-color:transparent;
     overflow-x:hidden;
     transition:0.5s;
+    text-align:right;
 }
 
 .sidebar a {
@@ -192,7 +193,7 @@ button{
     color:bisque;
     font-family:'Gilda Display', serif;
     font-size:1.5rem;
-    position:absolute;
+    position:fixed;
     right:10px;
     top:30px;
 }
@@ -275,13 +276,13 @@ a{
    position:absolute;
    top:590px;
    left:500px;
-}
+}*/
 
 .black_press{
    position:absolute;
-   top:990px;
+   top:850px;
    left:80px;
-}*/
+}
 
 .solid_state{
    position:absolute;
@@ -332,17 +333,11 @@ a{
         font-size:1rem;
     }
     
-    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
+    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.stisland1{
         display:inline-block;
         font-size:1rem;
         padding:10px;
     }
-    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland{
-        display:inline-block;
-        font-size:1rem;
-        padding:10px;
-    }
-    
     
     h3{
        padding:30px;
@@ -394,7 +389,7 @@ a{
     
     .container{
         display:inline;
-
+       
     }
     
     .line {
