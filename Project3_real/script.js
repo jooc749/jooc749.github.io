@@ -139,7 +139,7 @@ function showCoffee() {
 
         coffeeContainer.addEventListener("click", function createPage(){
           if (coffeeContainer.classList.contains("salento")){
-          window.location.replace("salento.html");
+          window.location.replace("detailpages/salento.html");
           
           } 
       })
@@ -147,16 +147,100 @@ function showCoffee() {
       //detail page for OXALIS (brooklyn)
       coffeeContainer.addEventListener("click", function createPage(){
         if(coffeeContainer.classList.contains("oxalis")){
-            window.location.replace("secondary_oxalis.html");
+            window.location.replace("detailpages/secondary_oxalis.html");
         }
     })
 
       //detail page for DOUBLE DUTCH (uptown)
       coffeeContainer.addEventListener("click", function createPage(){
         if(coffeeContainer.classList.contains("double_dutch")){
-            window.location.replace("secondary_doubledutch.html");
+            window.location.replace("detailpages/secondary_doubledutch.html");
         }
     })
+
+     //detail page for BLACK PRESS (uptown)
+     coffeeContainer.addEventListener("click", function createPage(){
+      if(coffeeContainer.classList.contains("black_press")){
+          window.location.replace("detailpages/blackpress.html");
+      }
+  })
+
+   //detail page for LE REVEIL (uptown)
+   coffeeContainer.addEventListener("click", function createPage(){
+    if(coffeeContainer.classList.contains("le_reveil")){
+        window.location.replace("detailpages/lereveil.html");
+    }
+})
+
+ //detail page for THE CHIPPED CUP (uptown)
+   coffeeContainer.addEventListener("click", function createPage(){
+    if(coffeeContainer.classList.contains("chipped_cup")){
+        window.location.replace("detailpages/chippedcup.html");
+    }
+})
+
+ //detail page for DANIELS (uptown)
+ coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("daniels")){
+      window.location.replace("detailpages/daniels.html");
+  }
+})
+
+ //detail page for MANHATTANVILLE (uptown)
+ coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("manhattanville")){
+      window.location.replace("detailpages/manhattanville.html");
+  }
+})
+
+//detail page for MANHATTANVILLE (uptown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("semicolon")){
+      window.location.replace("detailpages/semicolon.html");
+  }
+})
+
+//detail page for BOX KITE (uptown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("box_kite")){
+      window.location.replace("detailpages/boxkite.html");
+  }
+})
+
+//detail page for FOREVER (uptown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("forever")){
+      window.location.replace("detailpages/forever.html");
+  }
+})
+
+//detail page for SOLID STATE (uptown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("solid_state")){
+      window.location.replace("detailpages/solidstate.html");
+  }
+})
+
+//detail page for EL BARRISTA (uptown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("el_barrista")){
+      window.location.replace("detailpages/elbarrista.html");
+  }
+})
+
+//detail page for CLIPPER (bronx)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("clipper")){
+      window.location.replace("detailpages/clipper.html");
+  }
+})
+
+//detail page for MAIN ST (st island)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("main_st")){
+      window.location.replace("detailpages/mainst.html");
+  }
+})
 
 
       
