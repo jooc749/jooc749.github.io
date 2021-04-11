@@ -27,7 +27,7 @@ h2{
     /* width:100%; */
 }
 
-.row1,{
+.row1,.row2{
     display:flex;
 }
 
