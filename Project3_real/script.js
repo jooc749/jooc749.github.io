@@ -242,10 +242,208 @@ coffeeContainer.addEventListener("click", function createPage(){
   }
 })
 
+//detail page for BIBBLE & SIP(midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("bibble")){
+      window.location.replace("detailpages/bibble.html");
+  }
+})
 
+//detail page for OLD COUNTRY (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("old_country")){
+      window.location.replace("detailpages/oldcountry.html");
+  }
+})
+
+//detail page for MAMAS (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("mamas")){
+      window.location.replace("detailpages/mamas.html");
+  }
+})
+
+
+//detail page for CULTURE (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("culture")){
+      window.location.replace("detailpages/culture.html");
+  }
+})
+
+//detail page for ZIBETTO (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("zibetto")){
+      window.location.replace("detailpages/zibetto.html");
+  }
+})
+
+//detail page for REX (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("rex")){
+      window.location.replace("detailpages/rex.html");
+  }
+})
+
+//detail page for FOR FIVE (midtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("for_five")){
+      window.location.replace("detailpages/forfive.html");
+  }
+})
+
+//detail page for CAFE SHIKI (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("shiki")){
+      window.location.replace("detailpages/shiki.html");
+  }
+})
+
+//detail page for RALPH'S(downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("ralphs")){
+      window.location.replace("detailpages/ralphs.html");
+  }
+})
+
+//detail page for SALTWATER (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("saltwater")){
+      window.location.replace("detailpages/saltwater.html");
+  }
+})
+
+//detail page for LAUGHING MAN (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("laughing_man")){
+      window.location.replace("detailpages/laughingman.html");
+  }
+})
+
+//detail page for STUMPTOWN (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("stumptown")){
+      window.location.replace("detailpages/stumptown.html");
+  }
+})
+
+//detail page for BLACKSTONE (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("blackstone")){
+      window.location.replace("detailpages/blackstone.html");
+  }
+})
+
+//detail page for WAYPOINT (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("waypoint")){
+      window.location.replace("detailpages/waypoint.html");
+  }
+})
+
+//detail page for KONA (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("kona")){
+      window.location.replace("detailpages/kona.html");
+  }
+})
+
+//detail page for AMAZON (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("amazon")){
+      window.location.replace("detailpages/amazon.html");
+  }
+})
+
+//detail page for DREAMERS (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("dreamers")){
+      window.location.replace("detailpages/dreamers.html");
+  }
+})
       
+//detail page for NOW OR NEVER (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("now_or_never")){
+      window.location.replace("detailpages/nowornever.html");
+  }
+})
 
-        
+//detail page for EVERYMAN (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("everyman")){
+      window.location.replace("detailpages/everyman.html");
+  }
+})
+      
+//detail page for URBAN BACKYARD (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("urban_backyard")){
+      window.location.replace("detailpages/urbanbackyard.html");
+  }
+})
+        //detail page for THE BEAN (downtown)
+coffeeContainer.addEventListener("click", function createPage(){
+  if(coffeeContainer.classList.contains("bean")){
+      window.location.replace("detailpages/thebean.html");
+  }
+})
+
+        //detail page for 787 (downtown)
+        coffeeContainer.addEventListener("click", function createPage(){
+          if(coffeeContainer.classList.contains("seveneightseven")){
+              window.location.replace("detailpages/seveneightseven.html");
+          }
+        })
+
+
+          //detail page for LA COLOMBE (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("la_colombe")){
+                window.location.replace("detailpages/colombe.html");
+            }
+          })
+
+           //detail page for PATORO (downtown)
+           coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("patoro")){
+                window.location.replace("detailpages/patoro.html");
+            }
+          })
+
+          //detail page for GRUMPY (downtown)
+          coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("grumpy")){
+                window.location.replace("detailpages/grumpy.html");
+            }
+          })
+
+           //detail page for BLUE BOTTLE (downtown)
+           coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("blue_bottle")){
+                window.location.replace("detailpages/bluebottle.html");
+            }
+          })
+         
+           //detail page for LUDLOW (downtown)
+           coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("ludlow")){
+                window.location.replace("detailpages/ludlow.html");
+            }
+          })
+
+           //detail page for YOURS  (downtown)
+           coffeeContainer.addEventListener("click", function createPage(){
+            if(coffeeContainer.classList.contains("yours")){
+                window.location.replace("detailpages/yours.html");
+            }
+          })
+       
+       
+       
+       
+       
+       
        
         //get filter field from airtable 
         //loop through array and add each genre as a class to container 
