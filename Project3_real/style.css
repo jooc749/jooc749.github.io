@@ -23,8 +23,7 @@ h2{
     display:inline-block;
     font-size:1rem;
     padding:10px;
-    border-style: 1px solid white;
-    border-radius:30%;
+   
     /* width:100%; */
 }
 
@@ -73,6 +72,11 @@ h3{
     display:block;
   
 }
+
+h1{
+    font-size:2rem;
+}
+
 
 .yaxis{
     width:1px;
@@ -168,7 +172,7 @@ button{
     border:none;
     color:bisque;
     font-family:'Gilda Display', serif;
-    font-size:1.5rem;
+    font-size:1.8rem;
     position:absolute;
     right:10px;
     top:30px;
