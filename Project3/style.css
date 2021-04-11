@@ -95,7 +95,10 @@ h3{
 .line2  {
     display:inline;
     font-size:0.8rem;
-    
+    position:absolute;
+    margin-top:auto;
+    margin-left:30%;
+    margin-right:30%;
     text-align:center;
    
 }
@@ -161,6 +164,7 @@ h3{
     background-color:transparent;
     overflow-x:hidden;
     transition:0.5s;
+    text-align:right;
 }
 
 .sidebar a {
@@ -170,7 +174,7 @@ h3{
     color:black;
     display:block;
     transition:0.2s;
-    text-align:right;
+    /* text-align:right; */
 }
 
 button{
@@ -193,7 +197,6 @@ button{
     text-align:right;
     margin-right:20px;
 }
-
 
 
 .coffee-description{
