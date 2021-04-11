@@ -93,13 +93,9 @@ h3{
 
 
 .line2  {
-    display:block;
+    display:inline;
     font-size:0.8rem;
-    position:fixed;
-   margin-top:50%;
-   margin-left:5%;
     
-    width:30%;
     text-align:center;
    
 }
@@ -162,7 +158,7 @@ h3{
     z-index:1;
     top:0;
     right:0;
-    background:transparent;
+    background-color:transparent;
     overflow-x:hidden;
     transition:0.5s;
 }
@@ -174,7 +170,7 @@ h3{
     color:black;
     display:block;
     transition:0.2s;
-
+    text-align:right;
 }
 
 button{
@@ -191,7 +187,6 @@ button{
 .category{
     padding:40px;
     line-height:150%;
-    text-align:right;
 }
 
 .closebtn {
@@ -261,6 +256,10 @@ body {
 #location{
     text-align:right;
     
+}
+
+.line2 {
+    display:none;
 }
 
 h1{
