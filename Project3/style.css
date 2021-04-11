@@ -27,8 +27,8 @@ h2{
     /* width:100%; */
 }
 
-.row1, .row2{
-    display:inline;
+.row1,{
+    display:flex;
 }
 
 .group2 {
@@ -238,8 +238,8 @@ a{
 
 p{
     display:block;
-    
-    margin-top:20%;
+    text-align:center;
+    margin-top:30%;
 }
 /* .coffee-container.uptown.double_dutch{
     position:fixed;
