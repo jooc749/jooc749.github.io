@@ -1,5 +1,5 @@
 body{
-    background: #A8947C;
+    background-image:radial-gradient(#26cdeb,#ff392b,#58bf66, #ed2da0);
     font-family: 'Gilda Display', serif;
 }
 
@@ -9,8 +9,7 @@ body{
 
 .title{
     display:inline-block;
-    font-size:0.8rem;
-}
+    font-size:0.8rem;}
 
 .header-right{
     display:inline-block;
@@ -21,6 +20,9 @@ body{
 
 }
 
+.uptown:hover{
+    color:pink;
+}
 
 
 .address{
@@ -55,3 +57,4 @@ a{
     text-decoration:none;
     color:black;
 }
+
