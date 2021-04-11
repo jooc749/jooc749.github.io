@@ -1,4 +1,4 @@
-.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0{
+.eightyfive, .eighty, .seventyfive, .seventy, .sixtyfive, .sixty, .fiftyfive, .fifty, .fourtyfive, .fourty, .thirtyfive, .thirty, .twentyfive, .twenty, .fifteen, .ten, .five, .hundred, .ninetyfive, .ninety, .eightyfive0, .eighty0, .seventyfive0, .seventy0, .sixtyfive0, .sixty0, .blank{
     display:list-item;
     list-style:none;
     font-size:0.8rem;
@@ -34,6 +34,13 @@ h2{
 
 }
 
+.uptown2, .midtown2, .downtown2, .brooklyn2{
+    display:inline-block;
+    font-size:1rem;
+    padding:10px;
+
+}
+
 h3{
    padding:30px;
    font-weight:bold;
@@ -42,8 +49,8 @@ h3{
 .coffee-container{
     /* padding:1rem; */
     border: 1px solid bisque;
-    width:0.05rem;
-    height:0.05rem;
+    width:0.1rem;
+    height:0.1rem;
     border-radius:50%;
     display:inline-block;
     
@@ -91,7 +98,7 @@ h3{
     display:block;
     position:absolute;
     margin-left:50px;
-    margin-top:10px;
+    margin-top:15px;
     margin-right:5px;
   
 }
@@ -101,7 +108,7 @@ h3{
     font-size:0.8rem;
     position:absolute;
     margin-top:10px;
-    line-height:200%;
+    line-height:300%;
 }
 
 p{
@@ -226,15 +233,82 @@ a{
 }
 
 .coffee-container.uptown.double_dutch{
-    position:fixed;
-    top:150px;
+    position:absolute;
+    top:500px;
     left:120px;
 }
 
-.coffee-container.midtown.culture.more_than_coffee{
-    position:fixed;
-    top:400px;
-    left:180px;
+
+.forever{
+    position:absolute;
+    top:0px;
+    left:50px;
+}
+
+.semicolon{
+    position:absolute;
+    top:200px;
+    left:30px;
+}
+
+ /* .salento{
+    position:absolute;
+    top:200px;
+    left:270px;
+}
+
+.chipped_cup{
+    position:absolute;
+    top:325px;
+    left:80px;
+}
+
+.manhattanville{
+    position:absolute;
+    top:385px;
+    left:320px;
+}
+
+.el_barrista{
+   position:absolute;
+   top:590px;
+   left:500px;
+}
+
+.black_press{
+   position:absolute;
+   top:990px;
+   left:80px;
+}*/
+
+.solid_state{
+   position:absolute;
+   top:880px;
+   left:30px;
+}
+
+.box_kite{
+   position:absolute;
+   top:870px;
+   left:30px;
+}
+
+.le_reveil{
+   position:absolute;
+   top:880px;
+   left:250px;
+} 
+
+.daniels{
+   position:absolute;
+   top:930px;
+   left:250px;
+}
+ 
+
+
+.bronx, .stisland, .midtown,.downtown,.brooklyn{
+    display:none;
 }
 
 @media only screen and (min-width:800px){
