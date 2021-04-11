@@ -307,9 +307,9 @@ a{
  
 
 
-.bronx, .stisland, .midtown,.downtown,.brooklyn{
+/* .bronx, .stisland, .midtown,.downtown,.brooklyn{
     display:none;
-}
+} */
 
 @media only screen and (min-width:800px){
     body {
@@ -335,8 +335,8 @@ a{
         font-size:1rem;
         padding:10px;
     }
-    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland2{
-        display:none;
+    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland{
+        display:inline-block;
         font-size:1rem;
         padding:10px;
     }

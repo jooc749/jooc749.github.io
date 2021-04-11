@@ -61,7 +61,7 @@ a{
     color:black;
 }
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:800px) {
     body{
         background-color:#ff392b;
         font-family: 'Gilda Display', serif;
