@@ -1,6 +1,6 @@
 
 function openNav(){
-    document.getElementById("thesidebar").style.width= "250px";
+    document.getElementById("thesidebar").style.width= "200px";
     document.getElementById("filtermain").style.marginLeft="250px";
 }
 
