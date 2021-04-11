@@ -330,11 +330,17 @@ a{
         font-size:1rem;
     }
     
-    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.stisland1{
+    .uptown1, .midtown1, .downtown1, .brooklyn1, .bronx1,.StIsland1{
         display:inline-block;
         font-size:1rem;
         padding:10px;
     }
+    .uptown2, .midtown2, .downtown2, .brooklyn2, .bronx2,.StIsland2{
+        display:none;
+        font-size:1rem;
+        padding:10px;
+    }
+    
     
     h3{
        padding:30px;

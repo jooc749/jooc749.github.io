@@ -9,13 +9,14 @@ body{
 
 .title{
     display:inline-block;
-    font-size:0.8rem;}
+    font-size:0.8rem;
+}
 
 .header-right{
     display:inline-block;
     text-align:right;
-    position:absolute;
-    right:10px;
+    /* position:absolute; */
+
 
 
 }
@@ -29,6 +30,7 @@ body{
     margin-top:80px;
    margin-left:auto;
    margin-right:auto;
+   position:absolute;
 }
 
 .location{
@@ -46,7 +48,8 @@ h2{
 
 .tags {
     display:block;
-  
+    width:30%;
+
 }
 
 .tag1, .tag2, .tag3{
@@ -58,3 +61,66 @@ a{
     color:black;
 }
 
+@media only screen and (min-width:800px){
+    body{
+        background-color:#ff392b;
+        font-family: 'Gilda Display', serif;
+    }
+    
+    .header{
+        display:flex;
+    }
+    
+    .title{
+        display:inline-block;
+        font-size:0.8rem;}
+    
+    .header-right{
+        display:inline-block;
+        text-align:right;
+        position:absolute;
+        right:10px;
+    
+    
+    }
+    
+    .uptown:hover{
+        color:pink;
+    }
+    
+    
+    .address{
+        margin-top:80px;
+       margin-left:auto;
+       margin-right:auto;
+    }
+    
+    .location{
+        text-align:center;
+        
+    }
+    
+    h3{
+        font-size:1.5rem;
+    }
+    
+    h2{
+        font-size:1.2rem;
+    }
+    
+    .tags {
+        display:block;
+      
+    }
+    
+    .tag1, .tag2, .tag3{
+        display:inline-block;
+    }
+    
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    
+    
+}
