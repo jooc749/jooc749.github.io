@@ -41,6 +41,15 @@ h2{
 
 }
 
+.location{
+    text-align:right;
+    display:flex;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+}
+
+
 h3{
    padding:30px;
    font-weight:bold;
@@ -219,13 +228,6 @@ button{
 }
 
 
-.location{
-    text-align:right;
-    display:flex;
-    position:fixed;
-    bottom:20px;
-    right:10px;
-}
 
 a{
     text-decoration:none;
@@ -307,9 +309,9 @@ a{
  
 
 
-/* .bronx, .stisland, .midtown,.downtown,.brooklyn{
+.bronx, .stisland, .midtown,.downtown,.brooklyn{
     display:none;
-} */
+}
 
 @media only screen and (min-width:800px){
     body {
