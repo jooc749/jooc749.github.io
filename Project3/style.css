@@ -10,7 +10,7 @@ body {
 }
 
 .openbtn{
-    font-size:1rem;
+    font-size:2rem;
 }
 
 h2{
@@ -232,7 +232,8 @@ a{
     left:180px;
 } */
 
-@media only screen and (min-width:800px){body {
+@media only screen and (min-width:800px){
+body {
     font-family: 'Gilda Display', serif;
     color:bisque;
     background:rgb(12, 12, 12);
