@@ -347,7 +347,7 @@ h3{
     right:20px;
 }
 
-.line2 {
+.line {
     display:block;
     transform:rotate(-90deg);
     /* position:absolute;
@@ -358,7 +358,7 @@ h3{
     top:400px;
 }
 
-.line {
+.line2 {
     display:none;
 }
 
