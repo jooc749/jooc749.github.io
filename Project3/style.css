@@ -27,6 +27,10 @@ h2{
     /* width:100%; */
 }
 
+.row1, .row2{
+    display:flex;
+}
+
 .group2 {
     display:block;
 }
@@ -234,8 +238,8 @@ a{
 
 p{
     display:block;
-    text-align:center;
-    margin-top:30%;
+    
+    margin-top:50%;
 }
 /* .coffee-container.uptown.double_dutch{
     position:fixed;
