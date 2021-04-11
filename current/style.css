@@ -19,6 +19,10 @@ h2{
     font-size:1rem;
 }
 
+.line2{
+    display:none;
+}
+
 .StIsland, .bronx,.uptown, .midtown, .downtown, .brooklyn{
     display:inline-block;
     font-size:1rem;
@@ -27,9 +31,9 @@ h2{
     /* width:100%; */
 }
 
-.group2 {
+/* .group2 {
     display:block;
-}
+} */
 
 h3{
    padding:30px;
@@ -90,13 +94,19 @@ h3{
     margin-right:5px;
 }
 
-.line {
+.line2 {
+    display:none;
+}
+
+.line{
     display:block;
-    font-size:0.8rem;
-    position:fixed;
-    bottom:10px;
+    font-size:1rem;
+    position:absolute;
+    /* bottom:10px; */
     text-align:center;
-   
+    margin-top:50%;
+    margin-left:30%;
+    width:50%;
 }
 
 p{
@@ -105,7 +115,7 @@ p{
     width:50%;
     margin-top:50%;
     margin-bottom:50%;
-    margin-left:25%;
+    margin-left:10%;
 }
 
 
@@ -261,7 +271,7 @@ h2{
     padding:10px;
 } */
 
-.uptown, .midtown, .downtown, .brooklyn, .StIsland, .bronx{
+.uptown2, .midtown2, .downtown2, .brooklyn2, .StIsland2, .bronx2{
     font-size:1rem;
     display:inline-block;
     padding:10px;
@@ -331,24 +341,28 @@ h3{
 
 
 .container{
-    display:inline;
-    position:absolute;
-    left:50px;
+     display:inline;
+    position:absolute; 
+     left:50px;
     right:20px;
 }
 
-.line {
+.line2 {
     display:block;
     transform:rotate(-90deg);
     /* position:absolute;
     left:-220px;
     top:350px; */
-    position:relative;
+    position:absolute;
     left:-250px;
-    top:250px;
+    top:400px;
 }
 
-.group2{
+.line {
+    display:none;
+}
+
+.group3{
     display:inline;
 }
 
