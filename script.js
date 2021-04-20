@@ -63,5 +63,5 @@ document.getElementsByClassName('p2')[0].onclick = function(){
 //when clicking class 'p3', alert will display "text" and then go to link//
 
 document.getElementsByClassName('p3')[0].onclick = function(){
-    alert("Project 3: Elastic Collections COMING SOON");
+    alert("Project 3: Elastic Collections");
 }
