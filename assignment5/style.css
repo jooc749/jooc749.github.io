@@ -1,0 +1,52 @@
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+.recipe1{
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+    width:50%;
+       
+    margin-left:auto;
+    margin-right:auto;
+    background:rgb(166, 209, 170);
+}
+.recipe2{
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    background:rgb(231, 209, 181);
+}
+
+
+.recipe3{
+    text-align:center;
+    padding:30px;
+    font-size:20px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    background:rgb(235, 114, 110);
+}
+
+.pastaing, .dalgonaing, .cerealing{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-style:italic;
+
+}
+
+.pasta, .dalgona, .cereal {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
