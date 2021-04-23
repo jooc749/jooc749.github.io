@@ -51,3 +51,12 @@ function makePasta(tomatoes, garlic, oil, salt, cheese, pepper, pasta, basil){
 
 //adding in values for each ingredient
 makePasta("2 pints of cherry tomatoes, ", "4 cloves of garlic, ", "", "", " a block of feta cheese ");
+
+
+//add function to add widget button for dark/light mode toggle from darkmode.js
+function addDarkmode(){
+    new Darkmode().showWidget();
+}
+window.addEventListener('load', addDarkmode);
+
+console.log("js library: darkmode.js");
