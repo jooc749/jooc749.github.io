@@ -1,0 +1,100 @@
+h1{
+    text-align:center;
+}
+
+#download_canvas{
+    border:1px solid black;
+    margin-top:50px;
+    text-align: center;
+    position:absolute;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+
+}
+
+.button_container{
+    display:flex;
+    justify-content:center;
+}
+
+button{
+    margin:5px;
+}
+
+#clr{
+    display:inline-block;
+}
+
+#result{
+    position:absolute;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.greetings{
+   position:absolute;
+   z-index:100;
+   text-align:center;
+    margin-top:150px;
+    margin-bottom:auto;
+
+}
+
+p{
+    width:70%;
+    text-align:center;
+    margin-left:auto;
+   margin-right:auto;
+}
+
+#tools{
+    position:absolute;
+    z-index:150;
+    background-color:rgb(209, 202, 204);
+    display:inline;
+    top:150px;
+    
+}
+
+ul{
+list-style:none;
+text-align:center;
+margin-left:-10px;
+margin-right:20px;
+}
+
+li{
+    text-align:center;
+}
+
+#btn{
+    align-content:center;
+    position:relative;
+}
+
+p{
+    position:relative;
+}
+
+/* #header{
+    display:inline-flex;
+} */
+
+h6{
+    text-align:center;
+    font-size:1rem;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.party:hover{
+    background-color:pink;
+}
+

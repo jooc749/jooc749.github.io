@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appreciation</title>
+
+
+    <link rel="stylesheet" href="party.css">
+    <script src="party.js" defer></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+
+</head>
+<body onload="InitThis()";>
+
+    <h1>Appreciation</h1>
+
+   
+    <div class="container">
+
+       
+
+                <canvas id = "download_canvas" width="360" height="500"> 
+                    <div class="greetings">
+
+                        <div class="firstView" style="display:block">
+                            <p>Thank you Front Line!</p>
+                        </div>
+                    
+                        <div class="lastView" style="display:none">
+                            <p>From our social bubble to yours!</p>
+                        </div>   
+                    </div>
+                </canvas>
+    </div>
+
+    
+    <div id="tools">
+         
+    <ul>
+
+        <li>Line width:
+            <br>
+            <select id="selWidth">
+                <option value="1" selected="selected">1</option>
+                <option value="3">3</option>
+                <option value="5">5</option>
+            </select>
+        </li>
+
+        <br>
+
+        <li>   Color:
+            <br>
+            <select id="selColor">
+                <option value="black">black</option>
+                <option value="white">white</option>
+                <option value="orange">orange</option>
+                <option value="yellow">yellow</option>
+                <option value="pink">pink</option>
+            </select>
+        </li>
+        <br>
+
+
+   <li><input type="color" value="#001A57" id="clr" onchange="docolor()"></li> <br>
+   <li><button onclick="javascript:clearArea(); return false;">Clear</button></li><br>
+
+
+    <div class="button_container">
+
+    <button id="btnToggle" onclick = 'step2()'>Toggle</button>
+ 
+
+    </div>
+
+    <br>
+
+    <button id ="btn">Download!</button>
+    </div></ul>
+   
+
+</body>
+</html>

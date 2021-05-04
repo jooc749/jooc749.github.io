@@ -1,0 +1,46 @@
+.buttons{
+    display:block;
+    margin-top:20px;
+}
+
+.party, .love, .grief, .recovery{
+   width:150px;
+   padding:30px;
+   text-align:center;
+   border:1px solid black;
+   margin:16px;
+   font-size:1.2rem;
+   display:inline-block;
+}
+
+.content{
+  text-align:center;
+  padding:60px;
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+
+.party, .love, .grief, .recovery{
+  background-color:white;
+  color:black;
+}
+
+.party:hover{
+  background-color:rgb(255, 113, 31);
+}
+
+.love:hover{
+  background-color:rgb(255, 142, 208);
+}
+
+.grief:hover{
+  background-color: black;
+  color:white;
+}
+
+.recovery:hover{
+  background-color:rgb(152, 202, 154);
+}
