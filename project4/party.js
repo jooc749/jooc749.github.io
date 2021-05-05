@@ -1,4 +1,5 @@
 console.log("hi");
+    
 
 //the user clicks the download button to download an image of the card(canvas)they created 
 function capture(){
@@ -19,7 +20,6 @@ function capture(){
     })
 
 
-
 }
 
 var c = document.getElementById("download_canvas");
@@ -32,7 +32,7 @@ function myFunction() {
     
 
     
-    ctx.font = "16px Helvetica";
+    ctx.font = "16px Questrial";
     ctx.textAlign = 'center';
     ctx.fillText('Sending a long-distance birthday hug', ctx.canvas.width/2, 130);
     ctx.fillText('on your special day!', ctx.canvas.width / 2, 150);
@@ -184,3 +184,4 @@ function secondFunction() {
 //   }
 // }
 
+alert("Use your mouse to draw on your card.");

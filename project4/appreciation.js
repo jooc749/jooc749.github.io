@@ -184,3 +184,4 @@ function secondFunction() {
 //   }
 // }
 
+alert("Use your mouse to draw on your card.");
