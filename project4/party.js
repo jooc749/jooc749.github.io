@@ -26,18 +26,24 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function myFunction() {
+    WebFont.load({
+        google:{families:['Questrial']},
+        active:()=> {
+
+     
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "16px Questrial";
+    ctx.font = "30px Questrial";
     ctx.textAlign = 'center';
     ctx.fillText('Sending a long-distance birthday hug', ctx.canvas.width/2, 130);
-    ctx.fillText('on your special day!', ctx.canvas.width / 2, 150);
+    ctx.fillText('on your special day!', ctx.canvas.width / 2, 170);
 
-    
+}
+});
 }
 
 
@@ -67,6 +73,16 @@ var lastX, lastY;
 var ctx;
 
 function InitThis(){
+    const dpr = window.devicePixelRatio || 1;
+const canvas = document.getElementById('download_canvas');
+const rect = canvas.getBoundingClientRect();
+canvas.width = rect.width * dpr;
+canvas.height = rect.height * dpr;
+canvas.style.width = `${rect.width}px`;
+canvas.style.height = `${rect.height}px`;
+ctx = canvas.getContext('2d');
+ctx.scale(dpr, dpr);
+
     ctx=document.getElementById('download_canvas').getContext("2d");
 
     $('#download_canvas').mousedown(function(e){
