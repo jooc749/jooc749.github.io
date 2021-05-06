@@ -26,19 +26,24 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function myFunction() {
+
+    WebFont.load({
+        google:{families:['Quicksand']},
+        active:()=> {
+
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "16px Verdana";
+    ctx.font = "20px Quicksand";
     ctx.textAlign = 'center';
     ctx.fillText('Get Well Soon!', ctx.canvas.width/2, 130);
     // ctx.fillText('Front Line!', ctx.canvas.width / 2, 150);
 
     
-}
+}});}
 
 
 
@@ -116,18 +121,24 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function secondFunction() {
+
+    WebFont.load({
+        google:{families:['Raleway']},
+        active:()=> {
+
+
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "16px Verdana";
+    ctx.font = "18px Raleway";
     ctx.textAlign = 'center';
     ctx.fillText('I am here for you!', ctx.canvas.width/2, 130);
     // ctx.fillText('to yours!', ctx.canvas.width / 2, 150)
     
-}
+}});}
 
 // //the user can toggle between different greetings with a click of a button
 // function myFunction(){

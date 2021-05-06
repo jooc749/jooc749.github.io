@@ -26,19 +26,23 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function myFunction() {
+    WebFont.load({
+        google:{families:['Baskerville']},
+        active:()=> {
+
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "italic 16px Times";
+    ctx.font = "italic 18px Baskerville";
     ctx.textAlign = 'center';
     ctx.fillText('Our thoughts are with you.', ctx.canvas.width/2, 130);
     // ctx.fillText('Front Line!', ctx.canvas.width / 2, 150);
 
     
-}
+}});}
 
 
 
@@ -116,18 +120,23 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function secondFunction() {
+
+    WebFont.load({
+        google:{families:['Cormorant']},
+        active:()=> {
+
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "italic 16px Times";
+    ctx.font = "20px Cormorant";
     ctx.textAlign = 'center';
     ctx.fillText('Praying for you', ctx.canvas.width/2, 130);
     ctx.fillText('in your loss.', ctx.canvas.width / 2, 150)
     
-}
+}});}
 
 // //the user can toggle between different greetings with a click of a button
 // function myFunction(){

@@ -27,7 +27,7 @@ var ctx = c.getContext("2d");
 
 function myFunction() {
     WebFont.load({
-        google:{families:['Questrial']},
+        google:{families:['Archivo']},
         active:()=> {
 
      
@@ -37,10 +37,10 @@ function myFunction() {
     
 
     
-    ctx.font = "30px Questrial";
+    ctx.font = "16px Archivo";
     ctx.textAlign = 'center';
     ctx.fillText('Sending a long-distance birthday hug', ctx.canvas.width/2, 130);
-    ctx.fillText('on your special day!', ctx.canvas.width / 2, 170);
+    ctx.fillText('on your special day!', ctx.canvas.width / 2, 150);
 
 }
 });
@@ -73,15 +73,15 @@ var lastX, lastY;
 var ctx;
 
 function InitThis(){
-    const dpr = window.devicePixelRatio || 1;
-const canvas = document.getElementById('download_canvas');
-const rect = canvas.getBoundingClientRect();
-canvas.width = rect.width * dpr;
-canvas.height = rect.height * dpr;
-canvas.style.width = `${rect.width}px`;
-canvas.style.height = `${rect.height}px`;
-ctx = canvas.getContext('2d');
-ctx.scale(dpr, dpr);
+//     const dpr = window.devicePixelRatio || 1;
+// const canvas = document.getElementById('download_canvas');
+// const rect = canvas.getBoundingClientRect();
+// canvas.width = rect.width * dpr;
+// canvas.height = rect.height * dpr;
+// canvas.style.width = `${rect.width}px`;
+// canvas.style.height = `${rect.height}px`;
+// ctx = canvas.getContext('2d');
+// ctx.scale(dpr, dpr);
 
     ctx=document.getElementById('download_canvas').getContext("2d");
 
@@ -103,10 +103,13 @@ ctx.scale(dpr, dpr);
     $('#download_canvas').mouseleave(function(e){
         mousePressed = false;
     });
+
+   
 }
 
 
 function Draw(x, y, isDown) {
+    
     if (isDown) {
         ctx.beginPath();
         ctx.strokeStyle = $('#selColor').val();
@@ -118,12 +121,17 @@ function Draw(x, y, isDown) {
         ctx.stroke();
     }
     lastX = x; lastY = y;
+
+  
 }
 
 function clearArea() {
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+    const dpr = window.devicePixelRatio || 1;
+    ctx.scale(dpr, dpr);
 }
 
 
@@ -132,19 +140,23 @@ var c = document.getElementById("download_canvas");
 var ctx = c.getContext("2d");
 
 function secondFunction() {
+
+    WebFont.load({
+        google:{families:['Lexend']},
+        active:()=> {
+
     // Use the identity matrix while clearing the canvas
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     
 
     
-    ctx.font = "16px Helvetica";
+    ctx.font = "16px Lexend";
     ctx.textAlign = 'center';
     ctx.fillText('Wishing you happiness', ctx.canvas.width/2, 130);
     ctx.fillText('and health!', ctx.canvas.width / 2, 150)
     
-}
-
+}});}
 // //the user can toggle between different greetings with a click of a button
 // function myFunction(){
 //     if (document.getElementsByClassName('.firstView'). style.display ==="none"){

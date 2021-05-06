@@ -16,6 +16,7 @@
 .content{
   text-align:center;
   padding:60px;
+  color:black;
 }
 
 a{
@@ -38,6 +39,10 @@ a{
 
 .grief:hover{
   background-color: black;
+  color:white;
+}
+
+.grief a:hover{
   color:white;
 }
 
