@@ -29,6 +29,7 @@ body {
 
   #button {
     display:inline-block;
+    margin-right:10px;
   }
 
   @media only screen and (min-width:800px){
