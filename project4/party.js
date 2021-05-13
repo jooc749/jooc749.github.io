@@ -37,10 +37,11 @@ function myFunction() {
     
 
     
-    ctx.font = "16px Archivo";
+    ctx.font = "26px Archivo";
     ctx.textAlign = 'center';
-    ctx.fillText('Sending a long-distance birthday hug', ctx.canvas.width/2, 130);
-    ctx.fillText('on your special day!', ctx.canvas.width / 2, 150);
+    ctx.fillText('Sending a long-distance ', ctx.canvas.width/2, 130);
+    ctx.fillText('birthday hug', ctx.canvas.width/2, 180);
+    ctx.fillText('on your special day!', ctx.canvas.width / 2, 210);
 
 }
 });
@@ -212,4 +213,4 @@ function secondFunction() {
 //   }
 // }
 
-alert("Use your mouse to draw on your card.");
+alert("Choose a greeting and use your mouse to draw on your card.");

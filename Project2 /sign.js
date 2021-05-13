@@ -27,7 +27,7 @@ function setPosition(e) {
 // resize canvas
 function resize() {
   ctx.canvas.width = window.innerWidth;
-  ctx.canvas.height = window.innerHeight;
+  ctx.canvas.height = 300;
 }
 
 function draw(e) {

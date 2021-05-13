@@ -25,6 +25,23 @@ body{
 }
 
 
+#container{
+    position:fixed;
+    bottom:50px;
+    right:0;
+    left:0;
+    text-align:center;
+    font-size:1rem;
+}
+
+#button{
+    margin:auto;
+}
+
+a{
+    font-family:Palatino, Literata, Times;
+}
+
 
 
 #drag{
